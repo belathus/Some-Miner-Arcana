@@ -1,0 +1,44 @@
+
+[modules]
+
+	[modules.resources]
+		enabled = true
+
+		[modules.resources.gold]
+
+			[modules.resources.gold.pipe]
+				enabled = true
+
+			[modules.resources.gold.film]
+				enabled = true
+
+			[modules.resources.gold.dust]
+				enabled = true
+
+			[modules.resources.gold.gear]
+				enabled = true
+
+		[modules.resources.diamond]
+
+			[modules.resources.diamond.gear]
+				enabled = true
+
+		[modules.resources.glass]
+
+			[modules.resources.glass.pipe]
+				enabled = true
+
+		[modules.resources.iron]
+
+			[modules.resources.iron.pipe]
+				enabled = true
+
+			[modules.resources.iron.film]
+				enabled = true
+
+			[modules.resources.iron.dust]
+				enabled = true
+
+			[modules.resources.iron.gear]
+				enabled = true
+

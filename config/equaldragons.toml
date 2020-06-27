@@ -1,0 +1,4 @@
+#If false every dragon behaves as if it was the original one (egg + experience)
+#If true only the egg will be spawned
+eggOnly = false
+

@@ -1,0 +1,5 @@
+
+[general]
+	#True if player UI has plague hearts render when the effect is active.
+	"Plague Heart Overlay" = true
+

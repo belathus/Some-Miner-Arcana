@@ -1,0 +1,6 @@
+
+[scrapBin]
+	#Number of items the scrap bin needs to destroy to produce a scrap bag
+	#Range: > 1
+	itemsRequired = 100
+

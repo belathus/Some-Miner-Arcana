@@ -1,0 +1,15 @@
+
+#Wyrmroost General Options
+[general]
+	#How far dragons can travel from their home points
+	#Range: 6 ~ 1024
+	homeRadius = 16
+	#Do not enable this unless you are told to!
+	debugMode = false
+
+	#Wyrmroost Dragon Options
+	[general.dragons]
+		#Chances for a Dragon Fruit Drake to spawn as a baby. 0 = No Chance, 1 = (practically) Guaranteed. Higher values are better chances
+		#Range: 0.0 ~ 1.0
+		dfdBabyChance = 0.3
+
