@@ -35,12 +35,12 @@
 	#
 	#Reduces number of caves at surface level, becoming more common until caves generate normally X number of blocks below the surface 
 	#Default: 15
-	easeInDepth = 20
+	easeInDepth = 25
 	#
 	#Controls size of caves at the surface. Smaller values = more caves break through the surface. 
 	#Default: -0.081 (45% of noiseCutoffValue)
 	#Range: -1.0 ~ 1.0
-	surfaceCutoffValue = -0.081
+	surfaceCutoffValue = -1
 	#
 	#Streches (when < 1.0) or compresses (when > 1.0) cave generation along X and Z axis 
 	#Default: 1.0
