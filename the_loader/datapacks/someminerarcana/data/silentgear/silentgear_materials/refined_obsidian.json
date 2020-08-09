@@ -2,73 +2,73 @@
     "conditions": [
       {
         "value": {
-          "tag": "forge:ingots/neptunium",
+          "tag": "forge:ingots/refined_obsidian",
           "type": "forge:tag_empty"
         },
         "type": "forge:not"
       }
     ],
     "availability": {
-      "tier": 2,
+      "tier": 3,
       "visible": true,
       "gear_blacklist": []
     },
     "crafting_items": {
       "main": {
-        "tag": "forge:ingots/neptunium"
+        "tag": "forge:ingots/refined_obsidian"
       }
     },
     "name": {
-      "translate": "material.silentgear.neptunium"
+      "translate": "material.silentgear.refined_obsidian"
     },
     "stats": {
       "main": {
         "durability": 2500.0,
-        "armor_durability": 75.0,
-        "enchantability": 15.0,
+        "armor_durability": 50.0,
+        "enchantability": 40.0,
         "harvest_level": 3.0,
-        "harvest_speed": 12.0,
-        "melee_damage": 6.0,
-        "magic_damage": 2.0,
-        "attack_speed": -0.4,
-        "armor": 24.0,
-        "armor_toughness": 8.0,
+        "harvest_speed": 20.0,
+        "melee_damage": 7.0,
+        "magic_damage": 5.0,
+        "attack_speed": -0.2,
+        "armor": 30.0,
+        "armor_toughness": 16.0,
         "magic_armor": 3.0,
-        "ranged_damage": 2.5,
+        "ranged_damage": 3.0,
         "ranged_speed": -0.3,
-        "rarity": 75.0,
+        "rarity": 80.0,
         "silentgems:chargeability": 1.5
       },
       "rod": {
         "durability": {
-          "mul2": 0.1
+          "mul2": 2.0
         },
         "harvest_speed": {
-          "mul2": 0.1
+          "mul2": 0.0
         },
-        "rarity": 75.0
+        "rarity": 80.0
       }
     },
     "traits": {
       "main": [
         {
           "name": "silentgear:malleable",
-          "level": 2
+          "level": 3
         },
         {
-          "name": "silentgear:aquatic",
-          "level": 5,
+          "name": "silentgear:hard",
+          "level": 2,
           "conditions": [
             {
               "type": "silentgear:or",
               "values": [
                 {
                   "type": "silentgear:material_count",
-                  "count": 3
+                  "count": 2
                 },
                 {
                   "type": "silentgear:material_ratio",
-                  "ratio": 0.35
+                  "ratio": 0.2
                 }
               ]
             },
@@ -81,8 +81,8 @@
       ],
       "rod": [
         {
-          "name": "silentgear:soft",
-          "level": 4
+          "name": "silentgear:malleable",
+          "level": 2
         }
       ]
     }
