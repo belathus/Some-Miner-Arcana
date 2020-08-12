@@ -5,10 +5,9 @@
             "durability": 768,
             "integrity": -2,
             "magicCapacity": 120,
-            "damage": 8,
+            "damage": 7,
             "attackSpeed": -0.7,
             "effects": {
-                "looting": 1,
                 "sweeping": 1
             },
             "capabilities": {

@@ -11,8 +11,8 @@
 			"moduleKey": "sword/heavy_blade",
 			"moduleVariant": "heavy_blade/amethyst",
 			"improvements":{
-                "looting": 0
+                "enchantments/looting": 1
             }
 		}
 	]
-}
+}	

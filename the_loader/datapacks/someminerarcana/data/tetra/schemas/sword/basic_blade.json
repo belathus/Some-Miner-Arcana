@@ -10,9 +10,9 @@
 			},
 			"moduleKey": "sword/basic_blade",
 			"moduleVariant": "basic_blade/amethyst",
-			"improvements":{
-                "looting": 0
-            }
+			"improvements": {
+				"enchantment/looting": 1
+			}
 		}
 	]
 }
