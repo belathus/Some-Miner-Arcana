@@ -1,0 +1,18 @@
+{
+	"outcomes": [
+		{
+			"material": {
+				"tag": "forge:gems/amethyst",
+				"count": 2
+			},
+			"requiredCapabilities": {
+				"hammer": 2
+			},
+			"moduleKey": "sword/basic_blade",
+			"moduleVariant": "basic_blade/amethyst",
+			"improvements":{
+                "looting": 0
+            }
+		}
+	]
+}

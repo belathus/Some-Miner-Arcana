@@ -1,0 +1,29 @@
+{
+    "variants": [
+        {
+            "key": "heavy_blade/amethyst",
+            "durability": 768,
+            "integrity": -2,
+            "magicCapacity": 120,
+            "damage": 8,
+            "attackSpeed": -0.7,
+            "effects": {
+                "looting": 1,
+                "sweeping": 1
+            },
+            "capabilities": {
+                "cut": [
+                    1,
+                    1
+                ]
+            },
+            "glyph": {
+				"tint": "9F3CCF"
+			},
+			"models": [{
+                "location": "tetra:items/module/sword/blade/heavy/metal",
+				"tint": "9F3CCF"
+			}]
+        }
+    ]
+}

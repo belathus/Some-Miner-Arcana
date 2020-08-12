@@ -1,0 +1,30 @@
+{
+    "variants": [
+        {
+            "key": "basic_blade/amethyst",
+            "durability": 512,
+            "integrity": -2,
+            "magicCapacity": 120,
+            "damage": 7,
+            "attackSpeed": 0.2,
+            "effects": {
+                "sweeping": 1
+            },
+            "capabilities": {
+                "cut": [
+                    1,
+                    0.9375
+                ]
+            },
+            "glyph": {
+                "tint": "9f3ccf"
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/blade/basic/metal",
+                    "tint": "9f3ccf"
+                }
+            ]
+        }
+    ]
+}

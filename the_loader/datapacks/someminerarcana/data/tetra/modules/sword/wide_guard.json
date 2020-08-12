@@ -1,0 +1,23 @@
+{
+	"variants": [
+		{
+			"key": "wide_guard/chitin",
+			"durability": 24,
+			"integrity": -3,
+			"attackSpeed": -0.25,
+			"effects": {
+                "armor": 2,
+                "toughness":1
+			},
+			"glyph": {
+				"tint": "237C8E",
+				"textureX": 40,
+				"textureY": 16
+			},
+			"models": [{
+				"location": "tetra:items/module/sword/guard/wide_guard/crude",
+				"tint": "237C8E"
+			}]
+		}
+	]
+}
