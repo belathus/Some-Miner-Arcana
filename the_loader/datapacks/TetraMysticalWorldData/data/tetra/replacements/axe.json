@@ -1,0 +1,35 @@
+[
+    {
+        "predicate": {
+            "item": "mysticalworld:amethyst_axe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_axe_left", "basic_axe/amethyst"],
+            "double/head_right": ["double/butt_right", "butt/amethyst"],
+            "double/handle": ["double/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:quicksilver_axe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_axe_left", "basic_axe/quicksilver"],
+            "double/head_right": ["double/butt_right", "butt/quicksilver"],
+            "double/handle": ["double/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:cactus_axe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_axe_left", "basic_axe/cactus"],
+            "double/head_right": ["double/butt_right", "butt/cactus"],
+            "double/handle": ["double/basic_handle", "basic_handle/stick"]
+        }
+    }
+]

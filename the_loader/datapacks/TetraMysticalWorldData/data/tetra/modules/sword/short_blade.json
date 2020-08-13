@@ -1,0 +1,81 @@
+{
+  "variants": [
+    {
+      "key": "short_blade/amethyst",
+      "durability": 960,
+      "integrity": -1,
+      "magicCapacity": 70,
+      "damage": 3.0,
+      "attackSpeed": 0.8999999999999999,
+      "capabilities": {
+        "cut": [
+          0,
+          0.0
+        ]
+      },
+      "glyph": {
+        "tint": "d9f3ccf",
+        "textureX": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/short/shiny",
+          "tint": "9f3ccf"
+        }
+      ],
+      "effects": {}
+    },
+    {
+      "key": "short_blade/quicksilver",
+      "durability": 75,
+      "integrity": -1,
+      "magicCapacity": 110,
+      "damage": 2.5,
+      "attackSpeed": 1.4,
+      "glyph": {
+        "tint": "b4c3c4",
+        "textureX": 32
+      },
+      "capabilities": {
+        "cut": [
+          0,
+          0.0
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/short/metal",
+          "tint": "b4c3c4"
+        }
+      ],
+      "effects": {
+        "quickStrike": 1
+      }
+    },
+    {
+      "key": "short_blade/cactus",
+      "durability": 76,
+      "integrity": 0,
+      "magicCapacity": 15,
+      "damage": 1.5,
+      "attackSpeed": 1.4,
+      "glyph": {
+        "tint": "649832",
+        "textureX": 32
+      },
+      "capabilities": {
+        "cut": [
+          0,
+          0.0
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/short/crude",
+          "tint": "649832"
+        }
+      ],
+      "effects": {}
+    }
+  ]
+}

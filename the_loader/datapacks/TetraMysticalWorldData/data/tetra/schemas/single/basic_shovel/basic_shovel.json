@@ -1,0 +1,38 @@
+{
+  "outcomes": [
+    {
+      "material": {
+        "tag": "forge:gems/amethyst"
+      },
+      "requiredCapabilities": {
+        "hammer": 2
+      },
+      "moduleKey": "single/basic_shovel",
+      "moduleVariant": "basic_shovel/amethyst",
+      "improvements": {
+        "enchantment/fortune": 1,
+        "enchantment/looting": 1
+      }
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/quicksilver"
+      },
+      "requiredCapabilities": {
+        "hammer": 1
+      },
+      "moduleKey": "single/basic_shovel",
+      "moduleVariant": "basic_shovel/quicksilver"
+    },
+    {
+      "material": {
+        "item": "minecraft:cactus"
+      },
+      "requiredCapabilities": {
+        "cut": 1
+      },
+      "moduleKey": "single/basic_shovel",
+      "moduleVariant": "basic_shovel/cactus"
+    }
+  ]
+}

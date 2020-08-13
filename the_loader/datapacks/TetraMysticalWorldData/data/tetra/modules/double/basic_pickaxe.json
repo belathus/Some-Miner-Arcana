@@ -1,0 +1,81 @@
+{
+  "variants": [
+    {
+      "key": "basic_pickaxe/amethyst",
+      "durability": 470,
+      "integrity": -1,
+      "magicCapacity": 70,
+      "damage": 4.0,
+      "attackSpeed": -0.19999997615814213,
+      "glyph": {
+        "tint": "d9f3ccf",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/shiny",
+          "tint": "9f3ccf"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          3,
+          6.666666401757145
+        ]
+      },
+      "effects": {}
+    },
+    {
+      "key": "basic_pickaxe/quicksilver",
+      "durability": 27,
+      "integrity": -1,
+      "magicCapacity": 110,
+      "damage": 3.5,
+      "attackSpeed": -0.19999997615814213,
+      "glyph": {
+        "tint": "b4c3c4",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/metal",
+          "tint": "b4c3c4"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          3,
+          4.999999801317859
+        ]
+      },
+      "effects": {
+        "quickStrike": 1
+      }
+    },
+    {
+      "key": "basic_pickaxe/cactus",
+      "durability": 28,
+      "integrity": 0,
+      "magicCapacity": 15,
+      "damage": 2.5,
+      "attackSpeed": -0.19999997615814213,
+      "glyph": {
+        "tint": "649832",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/crude",
+          "tint": "649832"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          1,
+          3.3333332008785725
+        ]
+      },
+      "effects": {}
+    }
+  ]
+}
