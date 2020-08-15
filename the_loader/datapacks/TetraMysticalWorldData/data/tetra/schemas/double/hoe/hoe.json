@@ -1,0 +1,41 @@
+{
+  "outcomes": [
+    {
+      "material": {
+        "tag": "forge:gems/amethyst",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "hammer": 2
+      },
+      "moduleKey": "double/hoe",
+      "moduleVariant": "hoe/amethyst",
+      "improvements": {
+        "enchantment/fortune": 1,
+        "enchantment/looting": 1
+      }
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/quicksilver",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "hammer": 1
+      },
+      "moduleKey": "double/hoe",
+      "moduleVariant": "hoe/quicksilver"
+    },
+    {
+      "material": {
+        "item": "minecraft:cactus",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "cut": 1
+      },
+      "moduleKey": "double/hoe",
+      "moduleVariant": "hoe/cactus"
+    }
+  ]
+}

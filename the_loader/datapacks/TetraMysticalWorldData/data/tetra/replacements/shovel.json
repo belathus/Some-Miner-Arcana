@@ -1,0 +1,62 @@
+[
+    {
+        "predicate": {
+            "item": "mysticalworld:amethyst_shovel"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_shovel", "basic_shovel/amethyst"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:quicksilver_shovel"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_shovel", "basic_shovel/quicksilver"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:cactus_shovel"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_shovel", "basic_shovel/cactus"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:amethyst_spear"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_shovel", "spearhead/amethyst"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:quicksilver_spear"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_shovel", "spearhead/quicksilver"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:cactus_spear"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_shovel", "spearhead/cactus"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    }
+]

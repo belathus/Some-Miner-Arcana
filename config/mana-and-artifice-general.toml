@@ -1,0 +1,63 @@
+
+#Mana and Artifice // Flowers
+[ma_flowers]
+	#Chances of Desert Nova being generated [0-100, default: 15]
+	#Range: 0 ~ 100
+	maDesertNovaChance = 15
+	#Chances of Tarma Root being generated [0-100, default: 8]
+	#Range: 0 ~ 100
+	maTarmaRootChance = 8
+	#Chances of Cerublossom being generated [0-100, default: 10]
+	#Range: 0 ~ 100
+	maCerublossomChance = 10
+	#Generate Aum in the world [true / false]
+	maAumGeneration = true
+	#Chances of Wakebloom being generated [0-100, default: 7]
+	#Range: 0 ~ 100
+	maWakebloomChance = 7
+	#Generate Cerublossom in the world [true / false]
+	maCerublossomGeneration = true
+	#Chances of Aum being generated [0-100, default: 15]
+	#Range: 0 ~ 100
+	maAumChance = 15
+	#Generate Desert Nova in the world [true / false]
+	maDesertNovaGeneration = true
+	#Generate Wakebloom in the world [true / false]
+	maWakebloomGeneration = true
+	#Generate Tarma Root in the world [true / false]
+	maTarmaRootGeneration = true
+
+#Mana and Artifice // Vinteum Ore
+[ma_ore_vinteum]
+	#Size of Vinteum ore pockets on average [0-100, default: 9]
+	#Range: 0 ~ 100
+	maVinteumSize = 9
+	#Generate Vinteum in the world [true / false]
+	maVinteumOreGeneration = true
+	#Minimum height of of Vinteum ore pocket generation [0-255, default: 0]
+	#Range: 0 ~ 255
+	maVinteumMinHeight = 0
+	#Chances of Vinteum ore pockets being generated [0-100, default: 20]
+	#Range: 0 ~ 100
+	maVinteumChance = 20
+	#Maximum height of of Vinteum ore pocket generation [0-255, default: 64]
+	#Range: 0 ~ 255
+	maVinteumMaxHeight = 64
+
+#Mana and Artifice // Chimerite Ore
+[ma_ore_chimerite]
+	#Generate Chimerite in the world [true / false]
+	maChimeriteOreGeneration = true
+	#Maximum height of of Chimerite ore pocket generation [0-255, default: 32]
+	#Range: 0 ~ 255
+	maChimeriteMaxHeight = 32
+	#Size of Chimerite ore pockets [0-100, default: 3]
+	#Range: 0 ~ 100
+	maChimeriteSize = 3
+	#Minimum height of of Chimerite ore pocket generation [0-255, default: 0]
+	#Range: 0 ~ 255
+	maChimeriteMinHeight = 0
+	#Chances of Chimerite ore pockets being generated [0-100, default: 2]
+	#Range: 0 ~ 100
+	maChimeriteChance = 2
+

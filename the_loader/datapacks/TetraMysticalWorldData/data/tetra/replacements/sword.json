@@ -1,0 +1,62 @@
+[
+    {
+        "predicate": {
+            "item": "mysticalworld:amethyst_sword"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": ["sword/basic_blade", "basic_blade/amethyst"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:quicksilver_sword"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": ["sword/basic_blade", "basic_blade/amethyst"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:cactus_sword"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": ["sword/basic_blade", "basic_blade/cactus"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"]
+        }
+    },
+    {
+      "predicate": {
+          "item": "mysticalworld:amethyst_knife"
+      },
+      "item": "tetra:modular_sword",
+      "modules": {
+          "sword/blade": ["sword/short_blade", "short_blade/amethyst"],
+          "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"]
+      }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:quicksilver_sword"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": ["sword/short_blade", "short_blade/amethyst"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:cactus_sword"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": ["sword/short_blade", "short_blade/cactus"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"]
+        }
+    }
+]
