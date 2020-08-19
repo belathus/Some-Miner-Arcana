@@ -2,7 +2,7 @@
 #All configuration items related to the core gameplay
 [gameplay]
 	#AI Update rate, increase to improve performance, throttles citizen updates. [Default: 1]
-	#Range: 0 ~ 100
+	#Range: 1 ~ 100
 	updaterate = 1
 	#Automatically fix orphaned chunks which were caused by chunk loading and saving issues. [Default: false]
 	fixorphanedchunks = false
@@ -44,6 +44,9 @@
 	#Quantity of dirt per Compost filling. [Default: 1]
 	#Range: 0 ~ 100
 	dirtfromcompost = 1
+	#Chance to get a prismarine shard or crystal drop for the fisherman starting at level 3. Overall chance of prismarine is 2x this number [Default: 2.5]
+	#Range: 0.0 ~ 100.0
+	fisherprismarinechance = 2.5
 	#Chat frequency of worker requests. [Default: 30]
 	#Range: 1 ~ 100
 	chatfrequency = 30
@@ -53,7 +56,7 @@
 	#Delay modifier to mine a block (Decreasing it, decreases the delay) [Default: 500]
 	#Range: 1 ~ 10000
 	blockminingdelaymodifier = 500
-	#Chance to get a sponge drop for the fisherman starting at level 4. [Default: 0.1]
+	#Chance to get a sponge drop for the fisherman starting at level 3. [Default: 0.1]
 	#Range: 0.0 ~ 100.0
 	fisherspongechance = 0.1
 	#Should Players be sent entering/leaving colony notifications? [Default: true]
@@ -241,7 +244,7 @@
 	#minecolonies.config.luckyblocks.comment
 	luckyblocks = ["minecraft:stone", "minecraft:cobblestone"]
 	#minecolonies.config.configlistrecruitmentitems.comment
-	configlistrecruitmentitems = ["minecraft:hay_block;2", "minecraft:book;2", "minecraft:diamond;7", "minecraft:emerald;10", "minecraft:baked_potato;1", "minecraft:gold;3", "minecraft:redstone;2", "minecraft:sunflower;5", "minecraft:honeycomb;6", "minecraft:quartz;4"]
+	configlistrecruitmentitems = ["minecraft:hay_block;2", "minecraft:book;2", "minecraft:enchanted_book;9", "minecraft:diamond;9", "minecraft:emerald;8", "minecraft:baked_potato;1", "minecraft:gold;2", "minecraft:redstone;2", "minecraft:lapis_lazuli;2", "minecraft:cake;7", "minecraft:sunflower;5", "minecraft:honeycomb;6", "minecraft:quartz;3"]
 
 #All configurations related to pathfinding
 [pathfinding]

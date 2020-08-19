@@ -18,7 +18,7 @@
 	[general.general]
 		#Always create full creative-mode chests when formed. Should not be used in survival worlds!
 		creativeChests = false
-		#If the higher tier metal variants can be crafted.
+		#If the higher tier metal variants (including diamond and obsidian) can be crafted.
 		metalVariants = true
 		#If the interface input overlay should always be rendered on chests.
 		alwaysShowInterfaceOverlay = true

@@ -1,50 +1,50 @@
 
 [general]
-	#Should clientside fog be rendered?
-	"Atum Fog" = true
 	#Can a non-creative user create a portal using the scarab?
 	"Atum Portal" = true
+	#Should clientside fog be rendered?
+	"Atum Fog" = true
 
 ["atum start"]
+	#New players should start in Atum?
+	"Start in Atum" = false
 	#Structure that will generate next to the player when starting in Atum (Requires 'Start in Atum' to be enabled). Leave empty for no structure.
 	"Atum starting structure" = "atum:tent_small"
 	#Should a portal back to the Overworld generate, when starting in Atum?
 	"Create Atum Portal" = false
-	#New players should start in Atum?
-	"Start in Atum" = false
 
 [sandstorm]
-	#Sand particle transparency while wearing Sandstorm reducing helmets
-	#Range: 0 ~ 100
-	"Sandstorm Helmet Transparency" = 40
-	#Multiplier to fog during sandstorms
-	#Range: 0 ~ 100
-	"Sandstorm Fog" = 2
-	#Seconds it takes to transition from clear to sandstorm
-	#Range: 0 ~ 100
-	"Sandstorm Transition Time" = 25
+	#Enable/disables all functionality of sandstorms
+	"Sandstorm Enabled" = true
 	#Chance for sandstorms to generate sand layers. The higher the value, the more rare it is. Set to 0 to disable.
 	#Range: 0 ~ 10000
 	"Sandstorm Sand Layer" = 60
+	#Multiplier to fog during sandstorms
+	#Range: 0 ~ 100
+	"Sandstorm Fog" = 2
 	#How light the sand particles are
 	#Range: 0 ~ 100
 	"Sandstorm Brightness" = 75
-	#Enable/disables all functionality of sandstorms
-	"Sandstorm Enabled" = true
 	#Base transparency for sand particles
 	#Range: 0 ~ 100
 	"Sandstorm Base Transparency" = 10
+	#Sand particle transparency while wearing Sandstorm reducing helmets
+	#Range: 0 ~ 100
+	"Sandstorm Helmet Transparency" = 40
+	#Seconds it takes to transition from clear to sandstorm
+	#Range: 0 ~ 100
+	"Sandstorm Transition Time" = 25
 
 ["world gen"]
-	#Should Ruins generate in Atum?
-	"Enable Ruins" = true
+	#Should Mineshafts generate in Atum?
+	"Enable Mineshafts" = true
 	#Should Pyramids generate in Atum?
 	"Enable Pyramids" = true
+	#Should Ruins generate in Atum?
+	"Enable Ruins" = true
 	#Specify the amount of ruin variants structures/ruins. Allows for additional ruin structures with a resourcepack
 	#Range: 1 ~ 999
 	"Ruins Amount" = 19
-	#Should Mineshafts generate in Atum?
-	"Enable Mineshafts" = true
 	#Sets above what Y-level water will vaporize at (Except Oasis). Set to 0 to disable
 	#Range: 0 ~ 255
 	"Water Level" = 50
@@ -59,15 +59,7 @@
 	#Range: 0 ~ 10000
 	"Oasis percentage" = 50
 
-	[biome.sand_dunes]
-		#Range: -1 ~ 1000
-		weight = 15
-
 	[biome.deadwood_forest]
-		#Range: -1 ~ 1000
-		weight = 10
-
-	[biome.sand_hills]
 		#Range: -1 ~ 1000
 		weight = 10
 
@@ -78,6 +70,14 @@
 	[biome.limestone_mountains]
 		#Range: -1 ~ 1000
 		weight = 5
+
+	[biome.sand_dunes]
+		#Range: -1 ~ 1000
+		weight = 15
+
+	[biome.sand_hills]
+		#Range: -1 ~ 1000
+		weight = 10
 
 	[biome.sand_plains]
 		#Range: -1 ~ 1000
@@ -91,27 +91,11 @@
 	#Range: 1 ~ 10000
 	markedForDeathFrequency = 1000
 
-	[mobs.bonestorm]
-		#Range: -1 ~ 63
-		min = 1
-		#Range: 1 ~ 64
-		max = 2
-		#Range: -1 ~ 1000
-		weight = 5
-
-	[mobs.wraith]
-		#Range: -1 ~ 63
-		min = 1
-		#Range: 1 ~ 64
-		max = 2
-		#Range: -1 ~ 1000
-		weight = 10
-
-	[mobs.desert_wolf]
+	[mobs.desert_rabbit]
 		#Range: -1 ~ 63
 		min = 2
 		#Range: 1 ~ 64
-		max = 4
+		max = 3
 		#Range: -1 ~ 1000
 		weight = 5
 
@@ -123,21 +107,13 @@
 		#Range: -1 ~ 1000
 		weight = 5
 
-	[mobs.camel]
-		#Range: -1 ~ 63
-		min = 2
-		#Range: 1 ~ 64
-		max = 6
-		#Range: -1 ~ 1000
-		weight = 6
-
-	[mobs.mummy]
+	[mobs.bonestorm]
 		#Range: -1 ~ 63
 		min = 1
 		#Range: 1 ~ 64
-		max = 3
+		max = 2
 		#Range: -1 ~ 1000
-		weight = 30
+		weight = 5
 
 	[mobs.forsaken]
 		#Range: -1 ~ 63
@@ -147,6 +123,22 @@
 		#Range: -1 ~ 1000
 		weight = 22
 
+	[mobs.mummy]
+		#Range: -1 ~ 63
+		min = 1
+		#Range: 1 ~ 64
+		max = 3
+		#Range: -1 ~ 1000
+		weight = 30
+
+	[mobs.wraith]
+		#Range: -1 ~ 63
+		min = 1
+		#Range: 1 ~ 64
+		max = 2
+		#Range: -1 ~ 1000
+		weight = 10
+
 	[mobs.stoneguard]
 		#Range: -1 ~ 63
 		min = 1
@@ -154,14 +146,6 @@
 		max = 2
 		#Range: -1 ~ 1000
 		weight = 34
-
-	[mobs.desert_rabbit]
-		#Range: -1 ~ 63
-		min = 2
-		#Range: 1 ~ 64
-		max = 3
-		#Range: -1 ~ 1000
-		weight = 5
 
 	[mobs.tarantula]
 		#Range: -1 ~ 63
@@ -171,7 +155,23 @@
 		#Range: -1 ~ 1000
 		weight = 20
 
+	[mobs.camel]
+		#Range: -1 ~ 63
+		min = 2
+		#Range: 1 ~ 64
+		max = 6
+		#Range: -1 ~ 1000
+		weight = 6
+
+	[mobs.desert_wolf]
+		#Range: -1 ~ 63
+		min = 2
+		#Range: 1 ~ 64
+		max = 4
+		#Range: -1 ~ 1000
+		weight = 5
+
 ["mod integration"]
-	champions = false
 	theoneprobe = true
+	champions = false
 
