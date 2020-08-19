@@ -1,0 +1,24 @@
+{
+    "replace": false,
+    "type": "tetra:basic_module",
+    "slots": ["double/binding"],
+    "renderLayer": "higher",
+    "tweakKey": "tetra:double/binding",
+    "variants": [
+        {
+            "key": "double_rope_binding",
+            "durability": 28,
+            "integrity": 3,
+            "attackSpeed": -0.05,
+            "glyph": {
+                "tint": "87633B",
+                "textureX": 88,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/double/binding/binding/default",
+                "tint": "87633B"
+            }]
+        }
+    ]
+}

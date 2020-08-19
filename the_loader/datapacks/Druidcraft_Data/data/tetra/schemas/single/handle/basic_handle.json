@@ -1,0 +1,43 @@
+{
+    "replace": false,
+    "slots": [
+        "single/handle"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "item": "druidcraft:darkwood_planks"
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "single/basic_handle",
+            "moduleVariant": "basic_darkwood_handle"
+        },
+        {
+            "material": {
+                "item": "druidcraft:elder_planks"
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "single/basic_handle",
+            "moduleVariant": "basic_elderwood_handle"
+        },
+        {
+            "material": {
+                "tag": "druidcraft:rockroots"
+            },
+            "requiredCapabilities": {
+                "axe": 3
+            },
+            "moduleKey": "single/basic_handle",
+            "moduleVariant": "basic_rockroot_handle"
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "replace": false,
+    "slots": ["sword/guard"],
+    "type": "tetra:basic_module",
+    "renderLayer": "higher",
+    "variants": [
+        {
+            "key": "wide_darkwood_guard",
+            "durability": 19,
+            "integrity": -1,
+            "attackSpeed": -0.1,
+            "effects": {
+                "armor": 1
+            },
+            "glyph": {
+                "tint": "1f1818",
+                "textureX": 40,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/wide_guard/crude",
+                "tint": "1f1818"
+            }]
+        },
+        {
+            "key": "wide_elderwood_guard",
+            "durability": 26,
+            "integrity": -1,
+            "attackSpeed": -0.1,
+            "effects": {
+                "armor": 1
+            },
+            "glyph": {
+                "tint": "8b7453",
+                "textureX": 40,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/wide_guard/crude",
+                "tint": "8b7453"
+            }]
+        },
+        {
+            "key": "wide_bone_guard",
+            "durability": 68,
+            "integrity": -2,
+            "attackSpeed": -0.1,
+            "effects": {
+                "armor": 2
+            },
+            "glyph": {
+                "tint": "bone_glyph",
+                "textureX": 40,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/wide_guard/crude",
+                "tint": "bone"
+            }]
+        },
+        {
+            "key": "wide_moonstone_guard",
+            "durability": 96,
+            "integrity": -4,
+            "attackSpeed": -0.1,
+            "effects": {
+                "armor": 4,
+                "toughness": 2.5
+            },
+            "glyph": {
+                "tint": "7AC4F2",
+                "textureX": 40,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/wide_guard/crude",
+                "tint": "7AC4F2"
+            }]
+        },
+        {
+            "key": "wide_rockroot_guard",
+            "durability": 32,
+            "integrity": -3,
+            "attackSpeed": -0.1,
+            "effects": {
+                "armor": 1
+            },
+            "glyph": {
+                "tint": "716861",
+                "textureX": 40,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/wide_guard/crude",
+                "tint": "716861"
+            }]
+        }
+    ]
+}

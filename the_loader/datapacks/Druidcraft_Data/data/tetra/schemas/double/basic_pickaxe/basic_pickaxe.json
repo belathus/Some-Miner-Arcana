@@ -1,0 +1,65 @@
+{
+    "replace": false,
+    "slots": [
+        "double/head_left",
+        "double/head_right"
+    ],
+    "keySuffixes": [
+        "_left",
+        "_right"
+    ],
+    "materialSlotCount": 1,
+    "glyph": {
+        "textureX": 176
+    },
+    "displayType": "major",
+    "outcomes": [
+        {
+            "material": {
+                "item": "druidcraft:darkwood_planks",
+                "count": 1
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "double/basic_pickaxe",
+            "moduleVariant": "basic_darkwood_pickaxe"
+        },
+        {
+            "material": {
+                "item": "druidcraft:elder_planks",
+                "count": 1
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "double/basic_pickaxe",
+            "moduleVariant": "basic_elderwood_pickaxe"
+        },
+        {
+            "material": {
+                "item": "minecraft:bone",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "hammer": 2
+            },
+            "moduleKey": "double/basic_pickaxe",
+            "moduleVariant": "basic_bone_pickaxe"
+        },
+        {
+            "material": {
+                "item": "druidcraft:moonstone",
+                "count": 1
+            },
+            "requiredCapabilities": {
+                "hammer": 3
+            },
+            "moduleKey": "double/basic_pickaxe",
+            "moduleVariant": "basic_moonstone_pickaxe",
+            "improvements": {
+                "arrested": 0
+            }
+        }
+    ]
+}

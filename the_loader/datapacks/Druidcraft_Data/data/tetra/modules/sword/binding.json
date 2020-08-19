@@ -1,0 +1,24 @@
+{
+    "replace": false,
+    "slots": ["sword/guard"],
+    "type": "tetra:basic_module",
+    "renderLayer": "higher",
+    "tweakKey": "tetra:sword/binding",
+    "variants": [
+        {
+            "key": "sword_rope_binding",
+            "durability": 28,
+            "integrity": 3,
+            "attackSpeed": -0.1,
+            "glyph": {
+                "tint": "87633B",
+                "textureX": 88,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/binding/default",
+                "tint": "87633B"
+            }]
+        }
+    ]
+}

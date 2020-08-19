@@ -1,0 +1,45 @@
+{
+    "replace": false,
+    "slots": [
+        "shield/grip"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 16,
+        "textureY": 48
+    },
+    "outcomes": [
+        {
+            "material": {
+                "item": "druidcraft:darkwood_planks"
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "shield/basic_grip",
+            "moduleVariant": "basic_darkwood_grip"
+        },
+        {
+            "material": {
+                "item": "druidcraft:elder_planks"
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "shield/basic_grip",
+            "moduleVariant": "basic_elderwood_grip"
+        },
+        {
+            "material": {
+                "tag": "druidcraft:rockroots",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "axe": 3
+            },
+            "moduleKey": "shield/basic_grip",
+            "moduleVariant": "basic_rockroot_grip"
+        }
+    ]
+}

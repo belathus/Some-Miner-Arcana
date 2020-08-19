@@ -1,0 +1,61 @@
+{
+    "replace": false,
+    "slots": [
+        "sword/blade"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureY": 32,
+        "textureX": 48
+    },
+    "outcomes": [
+        {
+            "material": {
+                "item": "druidcraft:darkwood_planks",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "sword/machete",
+            "moduleVariant": "darkwood_machete"
+        },
+        {
+            "material": {
+                "item": "druidcraft:elder_planks",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "sword/machete",
+            "moduleVariant": "elderwood_machete"
+        },
+        {
+            "material": {
+                "item": "minecraft:bone",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "hammer": 2
+            },
+            "moduleKey": "sword/machete",
+            "moduleVariant": "bone_machete"
+        },
+        {
+            "material": {
+                "tag": "forge:gems/moonstone",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "hammer": 3
+            },
+            "moduleKey": "sword/machete",
+            "moduleVariant": "moonstone_machete",
+            "improvements": {
+                "arrested": 0
+            }
+        }
+    ]
+}

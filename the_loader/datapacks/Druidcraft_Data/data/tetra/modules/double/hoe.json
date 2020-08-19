@@ -1,0 +1,128 @@
+{
+    "replace": false,
+    "type": "tetra:multi_major_module",
+    "slots": [
+        "double/head_left",
+        "double/head_right"
+    ],
+    "slotSuffixes": [
+        "_left",
+        "_right"
+    ],
+    "improvements": [
+        "tetra:enchantment/vanishing_curse",
+        "tetra:enchantment/apotheosis_tempting",
+        "tetra:enchantment/apotheosis_natures_blessing",
+        "tetra:enchantment/enchantable_replanting",
+        "tetra:enchantment/enchantable_cultivator",
+        "tetra:enchantment/ensorcellation_tilling",
+        "tetra:enchantment/ensorcellation_weeding",
+        "tetra:enchantment/ensorcellation_furrowing",
+        "tetra:enchantment/ensorcellation_soulbound",
+        "tetra:enchantment/ma-enchants_curse_death",
+        "tetra:enchantment/cursed_curtail",
+        "tetra:enchantment/cursed_ignorance",
+        "tetra:enchantment/cursed_misfortune",
+        "tetra:enchantment/cursed_fragility",
+        "tetra:enchantment/cursed_fading",
+        "tetra:enchantment/cursed_obedience",
+        "tetra:enchantment/cursed_encumbrance",
+        "tetra:double/hoe",
+        "tetra:double/hoe_compat",
+        "tetra:double/hoe_hone",
+        "tetra:double/shared_head_compat",
+        "tetra:double/shared_head_hone",
+        "tetra:settling_improvements",
+        "tetra:destabilization_improvements"
+    ],
+    "variants": [
+        {
+            "key": "darkwood_hoe",
+            "durability": 40,
+            "integrity": -1,
+            "magicCapacity": 102,
+            "damage": 2,
+            "attackSpeed": -0.6,
+            "glyph": {
+                "tint": "1f1818",
+                "textureX": 16,
+                "textureY": 32
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/head/hoe/crude",
+                    "tint": "1f1818"
+                }
+            ],
+            "effects": {
+                "tilling": 1
+            }
+        },
+        {
+            "key": "elderwood_hoe",
+            "durability": 55,
+            "integrity": -1,
+            "magicCapacity": 128,
+            "damage": 2,
+            "attackSpeed": -0.6,
+            "glyph": {
+                "tint": "8b7453",
+                "textureX": 16,
+                "textureY": 32
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/head/hoe/crude",
+                    "tint": "8b7453"
+                }
+            ],
+            "effects": {
+                "tilling": 1
+            }
+        },
+        {
+            "key": "bone_hoe",
+            "durability": 117,
+            "integrity": -2,
+            "magicCapacity": 94,
+            "damage": 3,
+            "attackSpeed": -0.6,
+            "glyph": {
+                "tint": "bone_glyph",
+                "textureX": 16,
+                "textureY": 32
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/head/hoe/crude",
+                    "tint": "bone"
+                }
+            ],
+            "effects": {
+                "tilling": 1
+            }
+        },
+        {
+            "key": "moonstone_hoe",
+            "durability": 961,
+            "integrity": -4,
+            "magicCapacity": 72,
+            "damage": 4,
+            "attackSpeed": -0.6,
+            "glyph": {
+                "tint": "7AC4F2",
+                "textureX": 16,
+                "textureY": 32
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/head/hoe/shiny",
+                    "tint": "7AC4F2"
+                }
+            ],
+            "effects": {
+                "tilling": 1
+            }
+        }
+    ]
+}

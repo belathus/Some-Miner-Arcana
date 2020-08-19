@@ -1,0 +1,45 @@
+{
+    "replace": false,
+    "slots": ["shield/plate"],
+    "materialSlotCount": 1,
+    "displayType": "improvement",
+    "glyph": {
+        "textureX": 48,
+        "textureY": 240
+    },
+    "outcomes": [
+        {
+            "material": {
+                "item": "druidcraft:darkwood_planks"
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "improvements": {
+                "trim_darkwood": 0
+            }
+        },
+        {
+            "material": {
+                "item": "druidcraft:elder_planks"
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "improvements": {
+                "trim_elderwood": 0
+            }
+        },
+        {
+            "material": {
+                "tag": "druidcraft:rockroots"
+            },
+            "requiredCapabilities": {
+                "axe": 3
+            },
+            "improvements": {
+                "trim_rockroot": 0
+            }
+        }
+    ]
+}

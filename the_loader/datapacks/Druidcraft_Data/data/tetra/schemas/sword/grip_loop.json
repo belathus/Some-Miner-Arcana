@@ -1,0 +1,64 @@
+{
+    "replace": false,
+    "slots": [
+        "sword/pommel"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "minor",
+    "glyph": {
+        "textureX": 56,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "item": "druidcraft:darkwood_planks"
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "sword/grip_loop",
+            "moduleVariant": "darkwood_grip_loop"
+        },
+        {
+            "material": {
+                "item": "druidcraft:elder_planks"
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "sword/grip_loop",
+            "moduleVariant": "elderwood_grip_loop"
+        },
+        {
+            "material": {
+                "item": "minecraft:bone"
+            },
+            "requiredCapabilities": {
+                "hammer": 2
+            },
+            "moduleKey": "sword/grip_loop",
+            "moduleVariant": "bone_grip_loop"
+        },
+        {
+            "material": {
+                "tag": "forge:gems/moonstone"
+            },
+            "requiredCapabilities": {
+                "hammer": 3
+            },
+            "moduleKey": "sword/grip_loop",
+            "moduleVariant": "moonstone_grip_loop"
+        },
+        {
+            "material": {
+                "tag": "druidcraft:rockroot"
+            },
+            "requiredCapabilities": {
+                "axe": 3
+            },
+            "moduleKey": "sword/grip_loop",
+            "moduleVariant": "rockroot_grip_loop"
+        }
+    ]
+}

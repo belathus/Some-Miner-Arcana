@@ -1,0 +1,24 @@
+[
+    {
+        "predicate": {
+            "item": "druidcraft:moonstone_axe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_axe_left", "basic_moonstone_axe"],
+            "double/head_right": ["double/butt_right", "moonstone_butt"],
+            "double/handle": ["double/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "druidcraft:bone_axe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_axe_left", "basic_bone_axe"],
+            "double/head_right": ["double/butt_right", "bone_butt"],
+            "double/handle": ["double/basic_handle", "basic_handle/stick"]
+        }
+    }
+]
