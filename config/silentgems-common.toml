@@ -103,9 +103,9 @@
 		#Spawn a regular lightning bolt (can cause fire)
 		"silentgems:lightning" = false
 		#Changes the weather to a thunderstorm
-		"silentgems:thunderstorm" = false
+		"silentgems:thunderstorm" = true
 		#Create a patch of corrupted blocks
-		"silentgems:corrupt_blocks" = false
+		"silentgems:corrupt_blocks" = true
 		#Applies negative potion effects to the player
 		"silentgems:chaos_sickness" = false
 		#Spawn several lightning bolts that do not cause fire
