@@ -1,0 +1,60 @@
+{
+    "replace": false,
+    "slots": [
+        "sword/blade"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 48
+    },
+    "outcomes": [
+        {
+            "material": {
+                "item": "druidcraft:darkwood_planks",
+                "count": 8
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "sword/heavy_blade",
+            "moduleVariant": "heavy_darkwood_blade"
+        },
+        {
+            "material": {
+                "item": "druidcraft:elder_planks",
+                "count": 8
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "sword/heavy_blade",
+            "moduleVariant": "heavy_elderwood_blade"
+        },
+        {
+            "material": {
+                "item": "minecraft:bone",
+                "count": 8
+            },
+            "requiredCapabilities": {
+                "hammer": 2
+            },
+            "moduleKey": "sword/heavy_blade",
+            "moduleVariant": "heavy_bone_blade"
+        },
+        {
+            "material": {
+                "tag": "forge:gems/moonstone",
+                "count": 8
+            },
+            "requiredCapabilities": {
+                "hammer": 3
+            },
+            "moduleKey": "sword/heavy_blade",
+            "moduleVariant": "heavy_moonstone_blade",
+            "improvements": {
+                "arrested": 0
+            }
+        }
+    ]
+}

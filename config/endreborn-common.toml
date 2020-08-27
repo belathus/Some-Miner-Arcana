@@ -15,7 +15,7 @@
 	enderman_tweaks = false
 	#End Crypt maximum size
 	#Range: 0 ~ 64
-	crypt_size = 10
+	crypt_size = 8
 	#End Moss spawn rarity
 	#Range: 0 ~ 64
 	moss_rarity = 4
@@ -28,4 +28,7 @@
 	#Cracked Purpur and Cracked End Bricks spawn rarity
 	#Range: 0 ~ 64
 	decorator_rarity = 4
+	#Tungsten Ore spawn rarity
+	#Range: 0 ~ 64
+	tungsten_rarity = 4
 

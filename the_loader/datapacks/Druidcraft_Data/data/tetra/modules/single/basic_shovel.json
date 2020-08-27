@@ -1,0 +1,148 @@
+{
+    "replace": false,
+    "type": "tetra:basic_major_module",
+    "slots": [
+        "single/head"
+    ],
+    "improvements": [
+        "tetra:enchantment/efficiency_shovel",
+        "tetra:enchantment/silk_touch",
+        "tetra:enchantment/fortune",
+        "tetra:enchantment/vanishing_curse",
+        "tetra:enchantment/apotheosis_depth_miner",
+        "tetra:enchantment/cyclic_excavate",
+        "tetra:enchantment/enchantable_excavator",
+        "tetra:enchantment/ensorcellation_excavating",
+        "tetra:enchantment/ensorcellation_soulbound",
+        "tetra:enchantment/ma-enchants_momentum",
+        "tetra:enchantment/ma-enchants_curse_death",
+        "tetra:enchantment/cursed_curtail",
+        "tetra:enchantment/cursed_ignorance",
+        "tetra:enchantment/cursed_misfortune",
+        "tetra:enchantment/cursed_fragility",
+        "tetra:enchantment/cursed_fading",
+        "tetra:enchantment/cursed_obedience",
+        "tetra:enchantment/cursed_encumbrance",
+        "tetra:single/shovel",
+        "tetra:single/shovel_compat",
+        "tetra:single/shovel_hone",
+        "tetra:single/shared_head_compat",
+        "tetra:single/shared_head_hone",
+        "tetra:settling_improvements",
+        "tetra:destabilization_improvements"
+    ],
+    "variants": [
+        {
+            "key": "basic_darkwood_shovel",
+            "durability": 39,
+            "integrity": -1,
+            "magicCapacity": 102,
+            "damage": 1,
+            "attackSpeed": -0.3,
+            "glyph": {
+                "tint": "1f1818",
+                "textureX": 176,
+                "textureY": 32
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/single/head/basic_shovel/crude",
+                    "tint": "1f1818"
+                }
+            ],
+            "effects": {
+                "flattening": 1
+            },
+            "capabilities": {
+                "shovel": [
+                    1,
+                    3
+                ]
+            }
+        },
+        {
+            "key": "basic_elderwood_shovel",
+            "durability": 54,
+            "integrity": -1,
+            "magicCapacity": 128,
+            "damage": 1,
+            "attackSpeed": -0.3,
+            "glyph": {
+                "tint": "8b7453",
+                "textureX": 176,
+                "textureY": 32
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/single/head/basic_shovel/crude",
+                    "tint": "8b7453"
+                }
+            ],
+            "effects": {
+                "flattening": 1
+            },
+            "capabilities": {
+                "shovel": [
+                    1,
+                    3
+                ]
+            }
+        },
+        {
+            "key": "basic_bone_shovel",
+            "durability": 173,
+            "integrity": -2,
+            "magicCapacity": 94,
+            "damage": 1,
+            "attackSpeed": -0.3,
+            "glyph": {
+                "tint": "bone_glyph",
+                "textureX": 176,
+                "textureY": 32
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/single/head/basic_shovel/crude",
+                    "tint": "bone"
+                }
+            ],
+            "effects": {
+                "flattening": 1
+            },
+            "capabilities": {
+                "shovel": [
+                    2,
+                    5
+                ]
+            }
+        },
+        {
+            "key": "basic_moonstone_shovel",
+            "durability": 941,
+            "integrity": -4,
+            "magicCapacity": 72,
+            "damage": 1,
+            "attackSpeed": -0.3,
+            "glyph": {
+                "tint": "7AC4F2",
+                "textureX": 176,
+                "textureY": 32
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/single/head/basic_shovel/shiny",
+                    "tint": "7AC4F2"
+                }
+            ],
+            "effects": {
+                "flattening": 1
+            },
+            "capabilities": {
+                "shovel": [
+                    4,
+                    7
+                ]
+            }
+        }
+    ]
+}

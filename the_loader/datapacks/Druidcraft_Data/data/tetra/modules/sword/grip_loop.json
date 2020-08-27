@@ -1,0 +1,97 @@
+{
+    "replace": false,
+    "slots": ["sword/pommel"],
+    "type": "tetra:basic_module",
+    "variants": [
+        {
+            "key": "darkwood_grip_loop",
+            "durability": 19,
+            "integrity": -1,
+            "range": 1,
+            "effects": {
+                "sweeping": [0, 2]
+            },
+            "glyph": {
+                "tint": "1f1818",
+                "textureX": 56,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/pommel/grip_loop/default",
+                "tint": "1f1818"
+            }]
+        },
+        {
+            "key": "elderwood_grip_loop",
+            "durability": 26,
+            "integrity": -1,
+            "range": 1,
+            "effects": {
+                "sweeping": [0, 2]
+            },
+            "glyph": {
+                "tint": "8b7453",
+                "textureX": 56,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/pommel/grip_loop/default",
+                "tint": "8b7453"
+            }]
+        },
+        {
+            "key": "bone_grip_loop",
+            "durability": 68,
+            "integrity": -1,
+            "range": 1,
+            "effects": {
+                "sweeping": [0, 2]
+            },
+            "glyph": {
+                "tint": "bone_glyph",
+                "textureX": 56,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/pommel/grip_loop/default",
+                "tint": "bone"
+            }]
+        },
+        {
+            "key": "moonstone_grip_loop",
+            "durability": 96,
+            "integrity": -1,
+            "range": 1,
+            "effects": {
+                "sweeping": [0, 2]
+            },
+            "glyph": {
+                "tint": "7AC4F2",
+                "textureX": 56,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/pommel/grip_loop/default",
+                "tint": "7AC4F2"
+            }]
+        },
+        {
+            "key": "rockroot_grip_loop",
+            "durability": 32,
+            "integrity": -3,
+            "range": 1,
+            "effects": {
+                "sweeping": [0, 2]
+            },
+            "glyph": {
+                "tint": "716861",
+                "textureX": 56,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/pommel/grip_loop/default",
+                "tint": "716861"
+            }]
+        }
+    ]
+}

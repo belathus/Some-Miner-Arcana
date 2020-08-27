@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "slots": [
+        "shield/grip"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 64,
+        "textureY": 48
+    },
+    "outcomes": [
+        {
+            "material": {
+                "item": "druidcraft:rope",
+                "count": 1
+            },
+            "requiredCapabilities": {
+                "cut": 2
+            },
+            "moduleKey": "shield/straps",
+            "moduleVariant": "rope_straps"
+        }
+    ]
+}

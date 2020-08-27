@@ -1,0 +1,140 @@
+{
+    "replace": false,
+    "type": "tetra:multi_major_module",
+    "slots": [
+        "double/head_left",
+        "double/head_right"
+    ],
+    "slotSuffixes": [
+        "_left",
+        "_right"
+    ],
+    "improvements": [
+        "tetra:enchantment/efficiency_pickaxe",
+        "tetra:enchantment/silk_touch",
+        "tetra:enchantment/fortune",
+        "tetra:enchantment/vanishing_curse",
+        "tetra:enchantment/apotheosis_depth_miner",
+        "tetra:enchantment/cyclic_excavate",
+        "tetra:enchantment/enchantable_ore_eater",
+        "tetra:enchantment/enchantable_excavator",
+        "tetra:enchantment/ensorcellation_excavating",
+        "tetra:enchantment/ensorcellation_soulbound",
+        "tetra:enchantment/ma-enchants_reinforced_tip",
+        "tetra:enchantment/ma-enchants_stone_mending",
+        "tetra:enchantment/ma-enchants_momentum",
+        "tetra:enchantment/ma-enchants_curse_death",
+        "tetra:enchantment/cursed_curtail",
+        "tetra:enchantment/cursed_ignorance",
+        "tetra:enchantment/cursed_misfortune",
+        "tetra:enchantment/cursed_fragility",
+        "tetra:enchantment/cursed_fading",
+        "tetra:enchantment/cursed_obedience",
+        "tetra:enchantment/cursed_encumbrance",
+        "tetra:double/basic_pickaxe",
+        "tetra:double/basic_pickaxe_compat",
+        "tetra:double/basic_pickaxe_hone",
+        "tetra:double/shared_head_compat",
+        "tetra:double/shared_head_hone",
+        "tetra:settling_improvements",
+        "tetra:destabilization_improvements"
+    ],
+    "variants": [
+        {
+            "key": "basic_darkwood_pickaxe",
+            "durability": 40,
+            "integrity": -1,
+            "magicCapacity": 102,
+            "damage": 1,
+            "attackSpeed": -0.2,
+            "glyph": {
+                "tint": "1f1818",
+                "textureX": 176
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/head/basic_pickaxe/crude",
+                    "tint": "1f1818"
+                }
+            ],
+            "capabilities": {
+                "pickaxe": [
+                    1,
+                    1.6667
+                ]
+            }
+        },
+        {
+            "key": "basic_elderwood_pickaxe",
+            "durability": 55,
+            "integrity": -1,
+            "magicCapacity": 128,
+            "damage": 1,
+            "attackSpeed": -0.2,
+            "glyph": {
+                "tint": "8b7453",
+                "textureX": 176
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/head/basic_pickaxe/crude",
+                    "tint": "8b7453"
+                }
+            ],
+            "capabilities": {
+                "pickaxe": [
+                    1,
+                    3.33333
+                ]
+            }
+        },
+        {
+            "key": "basic_bone_pickaxe",
+            "durability": 117,
+            "integrity": -2,
+            "magicCapacity": 94,
+            "damage": 2,
+            "attackSpeed": -0.2,
+            "glyph": {
+                "tint": "bone_glyph",
+                "textureX": 176
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/head/basic_pickaxe/crude",
+                    "tint": "bone"
+                }
+            ],
+            "capabilities": {
+                "pickaxe": [
+                    2,
+                    3.5
+                ]
+            }
+        },
+        {
+            "key": "basic_moonstone_pickaxe",
+            "durability": 961,
+            "integrity": -4,
+            "magicCapacity": 72,
+            "damage": 3,
+            "attackSpeed": -0.2,
+            "glyph": {
+                "tint": "7AC4F2",
+                "textureX": 176
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/head/basic_pickaxe/shiny",
+                    "tint": "7AC4F2"
+                }
+            ],
+            "capabilities": {
+                "pickaxe": [
+                    4,
+                    5
+                ]
+            }
+        }
+    ]
+}

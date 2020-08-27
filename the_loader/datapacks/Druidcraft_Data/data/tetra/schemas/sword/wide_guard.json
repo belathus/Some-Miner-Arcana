@@ -1,0 +1,70 @@
+{
+    "replace": false,
+    "slots": [
+        "sword/guard"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "minor",
+    "glyph": {
+        "tint": "b2712c",
+        "textureX": 40,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "item": "druidcraft:darkwood_planks",
+                "count": 3
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "sword/wide_guard",
+            "moduleVariant": "wide_darkwood_guard"
+        },
+        {
+            "material": {
+                "item": "druidcraft:elder_planks",
+                "count": 3
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "sword/wide_guard",
+            "moduleVariant": "wide_elderwood_guard"
+        },
+        {
+            "material": {
+                "item": "minecraft:bone",
+                "count": 3
+            },
+            "requiredCapabilities": {
+                "hammer": 2
+            },
+            "moduleKey": "sword/wide_guard",
+            "moduleVariant": "wide_bone_guard"
+        },
+        {
+            "material": {
+                "tag": "forge:gems/moonstone",
+                "count": 3
+            },
+            "requiredCapabilities": {
+                "hammer": 3
+            },
+            "moduleKey": "sword/wide_guard",
+            "moduleVariant": "wide_moonstone_guard"
+        },
+        {
+            "material": {
+                "tag": "druidcraft:rockroot",
+                "count": 3
+            },
+            "requiredCapabilities": {
+                "axe": 3
+            },
+            "moduleKey": "sword/wide_guard",
+            "moduleVariant": "wide_rockroot_guard"
+        }
+    ]
+}

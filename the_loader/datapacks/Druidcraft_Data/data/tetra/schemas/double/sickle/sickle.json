@@ -1,0 +1,66 @@
+{
+    "replace": false,
+    "slots": [
+        "double/head_left",
+        "double/head_right"
+    ],
+    "keySuffixes": [
+        "_left",
+        "_right"
+    ],
+    "materialSlotCount": 1,
+    "glyph": {
+        "textureX": 32,
+        "textureY": 32
+    },
+    "displayType": "major",
+    "outcomes": [
+        {
+            "material": {
+                "item": "druidcraft:darkwood_planks",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "double/sickle",
+            "moduleVariant": "darkwood_sickle"
+        },
+        {
+            "material": {
+                "item": "druidcraft:elder_planks",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "double/sickle",
+            "moduleVariant": "elderwood_sickle"
+        },
+        {
+            "material": {
+                "item": "minecraft:bone",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "hammer": 2
+            },
+            "moduleKey": "double/sickle",
+            "moduleVariant": "bone_sickle"
+        },
+        {
+            "material": {
+                "tag": "druidcraft:moonstone",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "hammer": 3
+            },
+            "moduleKey": "double/sickle",
+            "moduleVariant": "moonstone_sickle",
+            "improvements": {
+                "arrested": 0
+            }
+        }
+    ]
+}

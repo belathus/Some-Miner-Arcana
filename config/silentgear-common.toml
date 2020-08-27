@@ -23,16 +23,20 @@
 			sturdy = 0.4000000059604645
 			#Range: 0.0 ~ 10.0
 			crude = 0.3499999940395355
+			#Range: 0.0 ~ 10.0
+			azure = 0.5
 
 		#Capacity is the number of materials that can be stored (all types combined)
 		#Setting to zero would make the repair kit unusable.
 		[item.repairKits.capacity]
 			#Range: > 0
-			crimson = 30
+			crimson = 48
 			#Range: > 0
-			sturdy = 20
+			sturdy = 32
 			#Range: > 0
-			crude = 10
+			crude = 16
+			#Range: > 0
+			azure = 64
 
 #Settings for nerfed items.
 #You can give items reduced durability to encourage use of Silent Gear tools.

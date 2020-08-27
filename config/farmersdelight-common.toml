@@ -1,5 +1,10 @@
 
-#World settings
+#Game settings
+[settings]
+	#Should Novice and Apprentice Farmers buy this mod's crops? (May reduce chances of other trades appearing)
+	farmersBuyFDCrops = true
+
+#World generation
 [world]
 	#Generate crop items on Village houses (all biomes)
 	cropsOnVillageHouseLoot = true

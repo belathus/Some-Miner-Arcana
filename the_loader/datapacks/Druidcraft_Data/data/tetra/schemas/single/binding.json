@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "slots": [
+        "single/binding"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "minor",
+    "glyph": {
+        "textureX": 88,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "item": "druidcraft:rope",
+                "count": 4
+            },
+            "requiredCapabilities": {
+                "cut": 2
+            },
+            "moduleKey": "single/binding",
+            "moduleVariant": "single_rope_binding"
+        }
+    ]
+}

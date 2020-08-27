@@ -1,0 +1,40 @@
+[
+    {
+        "key": "trim_rockroot",
+        "group": "trim",
+        "durabilityMultiplier": 1.062,
+        "integrity": -1,
+        "models": [
+            {
+                "type": "shield_tower",
+                "location": "tetra:items/module/shield/plate/tower/improvements/roottrim"
+            }
+        ]
+    },
+    {
+        "key": "trim_darkwood",
+        "group": "trim",
+        "durabilityMultiplier": 1.05,
+        "integrity": -1,
+        "models": [
+            {
+                "type": "shield_tower",
+                "location": "tetra:items/module/shield/plate/tower/improvements/trim",
+				"tint": "1f1818"
+            }
+        ]
+    },
+    {
+        "key": "trim_elderwood",
+        "group": "trim",
+        "durabilityMultiplier": 1.055,
+        "integrity": -1,
+        "models": [
+            {
+                "type": "shield_tower",
+                "location": "tetra:items/module/shield/plate/tower/improvements/trim",
+				"tint": "8b7453"
+            }
+        ]
+    }
+]

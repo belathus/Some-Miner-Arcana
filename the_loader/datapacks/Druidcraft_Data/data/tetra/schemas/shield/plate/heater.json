@@ -1,0 +1,58 @@
+{
+    "replace": false,
+    "slots": [
+        "shield/plate"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 32,
+        "textureY": 48
+    },
+    "outcomes": [
+        {
+            "material": {
+                "item": "druidcraft:darkwood_planks"
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "shield/heater",
+            "moduleVariant": "darkwood_heater"
+        },
+        {
+            "material": {
+                "item": "druidcraft:elder_planks"
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "shield/heater",
+            "moduleVariant": "elderwood_heater"
+        },
+        {
+            "material": {
+                "tag": "forge:gems/moonstone"
+            },
+            "requiredCapabilities": {
+                "hammer": 3
+            },
+            "moduleKey": "shield/heater",
+            "moduleVariant": "moonstone_heater",
+            "improvements": {
+                "arrested": 0
+            }
+        },
+        {
+            "material": {
+                "item": "druidcraft:chitin"
+            },
+            "requiredCapabilities": {
+                "hammer": 3,
+                "axe": 3
+            },
+            "moduleKey": "shield/heater",
+            "moduleVariant": "chitin_heater"
+        }
+    ]
+}

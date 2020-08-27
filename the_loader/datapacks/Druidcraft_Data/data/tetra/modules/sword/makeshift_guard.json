@@ -1,0 +1,64 @@
+{
+    "replace": false,
+    "slots": ["sword/guard"],
+    "type": "tetra:basic_module",
+    "renderLayer": "higher",
+    "variants": [
+        {
+            "key": "darkwood_makeshift_guard",
+            "durability": 5,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "1f1818",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                "tint": "1f1818"
+            }]
+        },
+        {
+            "key": "elderwood_makeshift_guard",
+            "durability": 7,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "8b7453",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                "tint": "8b7453"
+            }]
+        },
+        {
+            "key": "bone_makeshift_guard",
+            "durability": 17,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "bone_glyph",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                "tint": "bone"
+            }]
+        },
+        {
+            "key": "moonstone_makeshift_guard",
+            "durability": 24,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "7AC4F2",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
+                "tint": "7AC4F2"
+            }]
+        }
+    ]
+}

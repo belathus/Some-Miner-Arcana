@@ -1,0 +1,107 @@
+{
+    "replace": false,
+    "type": "tetra:basic_major_module",
+    "slots": ["shield/grip"],
+    "improvements": [
+        "tetra:shield/grip/hone_damage_flat",
+        "tetra:shield/grip/hone_speed_mult",
+        "tetra:shield/grip/hone_durability",
+        "tetra:enchantment/mending",
+        "tetra:enchantment/loyalty",
+        "tetra:enchantment/knockback",
+        "tetra:enchantment/ensorcellation_phalanx",
+        "tetra:enchantment/naturesaura_aura_mending",
+        "tetra:enchantment/apotheosis_life_mending",
+        "tetra:enchantment/ma-enchants_curse_breaking",
+        "tetra:enchantment/cyclic_experience_boost",
+        "tetra:enchantment/ma-enchants_timeless",
+        "tetra:enchantment/vanishing_curse",
+        "tetra:enchantment/ensorcellation_soulbound",
+        "tetra:enchantment/ma-enchants_curse_death",
+        "tetra:enchantment/cursed_fragility",
+        "tetra:enchantment/cursed_misfortune",
+        "tetra:enchantment/cursed_fading",
+        "tetra:enchantment/cursed_obedience",
+        "tetra:enchantment/cursed_encumbrance",
+        "tetra:settling_improvements",
+        "tetra:destabilization_improvements"
+    ],
+    "variants": [
+        {
+            "key": "basic_darkwood_grip",
+            "durability": 24,
+            "integrity": 2,
+            "magicCapacity": 30,
+            "attackSpeed": 2,
+            "glyph": {
+                "tint": "1f1818",
+                "textureX": 16,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_grip",
+                    "location": "tetra:items/module/shield/grip/basic_grip/default",
+                    "tint": "1f1818"
+                }
+            ]
+        },
+        {
+            "key": "basic_elderwood_grip",
+            "durability": 33,
+            "integrity": 2,
+            "magicCapacity": 36,
+            "attackSpeed": 2,
+            "glyph": {
+                "tint": "8b7453",
+                "textureX": 16,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_grip",
+                    "location": "tetra:items/module/shield/grip/basic_grip/default",
+                    "tint": "8b7453"
+                }
+            ]
+        },
+        {
+            "key": "basic_bone_grip",
+            "durability": 31,
+            "integrity": 3,
+            "magicCapacity": 40,
+            "attackSpeed": 2,
+            "glyph": {
+                "tint": "bone_glyph",
+                "textureX": 16,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_grip",
+                    "location": "tetra:items/module/shield/grip/basic_grip/default",
+                    "tint": "bone"
+                }
+            ]
+        },
+        {
+            "key": "basic_rockroot_grip",
+            "durability": 41,
+            "integrity": 3,
+            "magicCapacity": 32,
+            "attackSpeed": 2,
+            "glyph": {
+                "tint": "716861",
+                "textureX": 16,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_grip",
+                    "location": "tetra:items/module/shield/grip/basic_grip/default",
+                    "tint": "716861"
+                }
+            ]
+        }
+    ]
+}

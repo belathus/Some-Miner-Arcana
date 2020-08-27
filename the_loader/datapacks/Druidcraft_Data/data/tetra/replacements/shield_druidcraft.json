@@ -1,0 +1,45 @@
+[
+    {
+        "predicate": {
+            "item": "druidcraft:chitin_shield"
+        },
+        "item": "tetra:modular_shield",
+        "modules": {
+            "shield/plate": ["shield/tower", "chitin_tower"],
+            "shield/grip": ["shield/basic_grip", "basic_grip/iron"]
+        },
+        "improvements": {
+            "shield/plate:shield/studs_iron": 0,
+            "shield/plate:shield/trim_iron": 0
+        }
+    },
+    {
+        "predicate": {
+            "item": "druidcraft:moonstone_shield"
+        },
+        "item": "tetra:modular_shield",
+        "modules": {
+            "shield/plate": ["shield/tower", "moonstone_tower"],
+            "shield/grip": ["shield/basic_grip", "basic_grip/iron"]
+        },
+        "improvements": {
+            "shield/plate:shield/studs_iron": 0,
+            "shield/plate:shield/trim_iron": 0
+        }
+    },
+    {
+        "predicate": {
+            "item": "druidcraft:bone_shield"
+        },
+        "item": "tetra:modular_shield",
+        "modules": {
+            "shield/plate": ["shield/tower", "tower/bone"],
+            "shield/grip": ["shield/basic_grip", "basic_grip/iron"]
+        },
+        "improvements": {
+            "shield/plate:shield/studs_iron": 0,
+            "shield/plate:shield/trim_iron": 0
+        }
+    }
+    
+]

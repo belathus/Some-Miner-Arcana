@@ -1,0 +1,449 @@
+{
+
+  "tetra.module.sword/basic_hilt.name":"Simple hilt",
+  "tetra.module.sword/basic_hilt.description": "A simple sword hilt. The sword hilt is the primary source of integrity for swords.",
+  
+  "tetra.variant.darkwood_hilt": "Darkwood hilt",
+  "tetra.variant.elderwood_hilt": "Elderwood hilt",
+  "tetra.variant.rockroot_hilt": "Rockroot hilt",
+  
+  "tetra.module.sword/decorative_pommel.name": "Decorative pommel",
+  "tetra.module.sword/decorative_pommel.description": "A decorative pommel, it provides a small amount of durability but has no functional value.",
+
+  "tetra.variant.decorative_darkwood_pommel": "Decorative darkwood pommel",
+  "tetra.variant.decorative_elderwood_pommel": "Decorative elderwood pommel",
+  "tetra.variant.decorative_bone_pommel": "Decorative bone pommel",
+  "tetra.variant.decorative_moonstone_pommel": "Decorative moonstone pommel",
+  
+  "tetra.module.sword/makeshift_guard.name": "Makeshift guard",
+  "tetra.module.sword/makeshift_guard.description": "A sword guard, its weak construction provides little protection for the wielding hand.",
+
+  "tetra.variant.darkwood_makeshift_guard": "Makeshift darkwood guard",
+  "tetra.variant.elderwood_makeshift_guard": "Makeshift elderwood guard",
+  "tetra.variant.bone_makeshift_guard": "Makeshift bone guard",
+  "tetra.variant.moonstone_makeshift_guard": "Makeshift moonstone guard",
+  
+  "tetra/schema/sword/binding.name": "Binding",
+  "tetra/schema/sword/binding.description": "Tighten the binding between the hilt and the blade by wrapping it with rope or straps, or by using completely different materials and methods.",
+  "tetra/schema/sword/binding.slot1": "Material",
+
+  "tetra.module.sword/binding.name": "Binding",
+
+  "tetra.variant.sword_rope_binding": "Rope binding",
+  "tetra.variant.sword_rope_binding.description": "Tightly bound ropes strengthen the blade's attachment to the hilt.",
+  
+  "tetra/schema/sword/wide_guard.name": "Wide guard",
+  "tetra/schema/sword/wide_guard.description": "Craft a wide guard which protects the wielding hand, providing additional armor when held in the main-hand or off-hand.",
+  "tetra/schema/sword/wide_guard.slot1": "Guard material",
+
+  "tetra.module.sword/wide_guard.name": "Wide guard",
+  "tetra.module.sword/wide_guard.description": "a wide guard which protects the wielding hand. Provides additional armor when the sword is held in the main-hand or off-hand.",
+  
+  "tetra.variant.wide_darkwood_guard": "Wide darkwood guard",
+  "tetra.variant.wide_elderwood_guard": "Wide elderwood guard",
+  "tetra.variant.wide_bone_guard": "Wide bone guard",
+  "tetra.variant.wide_moonstone_guard": "Wide moonstone guard",
+  "tetra.variant.wide_rockroot_guard": "Wide rockroot guard",
+  
+  "tetra/schema/sword/counterweight.name": "Counterweight",
+  "tetra/schema/sword/counterweight.description": "Balance the blade with a counterweight. Greatly increases attack speed if the counterweight consumes the same amount of integrity as all other modules combined. If integrity usage differs the bonus is reduced, a large difference reduces the bonus further and may even reduce the attack speed.",
+  "tetra/schema/sword/counterweight.slot1": "Material",
+
+  "tetra.module.sword/counterweight.name": "Counterweight",
+  "tetra.module.sword/counterweight.description": "A counterweight attached to the bottom of the hilt. Greatly increases attack speed if the counterweight consumes the same amount of integrity as all other modules combined. If integrity usage differs the bonus is reduced, a large difference reduces the bonus further and may even reduce the attack speed.",
+
+  "tetra.variant.darkwood_counterweight": "Darkwood counterweight §7II",
+  "tetra.variant.elderwood_counterweight": "Elderwood counterweight §7II",
+  "tetra.variant.bone_counterweight": "Bone counterweight §7II",
+  "tetra.variant.moonstone_counterweight": "Moonstone counterweight §7IV",
+  "tetra.variant.rockroot_counterweight": "Rockroot counterweight §7III",
+  
+  "tetra/schema/sword/reinforced_fuller.name": "Reinforce fuller",
+  "tetra/schema/sword/reinforced_fuller.description": "Reinforce the fuller using the given material. Provides additional integrity and reduces the chance for the item to take damage, but makes the sword heavier and slower to swing.",
+  "tetra/schema/sword/reinforced_fuller.slot1": "Material",
+
+  "tetra.module.sword/reinforced_fuller.name": "Reinforced fuller",
+  "tetra.module.sword/reinforced_fuller.description": "A fuller reinforcement that provides additional integrity and reduces the chance for the item to take damage, but makes the sword heavier and slower to swing.",
+
+  "tetra.variant.reinforced_darkwood_fuller": "Reinforced darkwood fuller",
+  "tetra.variant.reinforced_elderwood_fuller": "Reinforced elderwood fuller",
+  "tetra.variant.reinforced_bone_fuller": "Reinforced bone fuller",
+  "tetra.variant.reinforced_moonstone_fuller": "Reinforced moonstone fuller",
+  "tetra.variant.reinforced_rockroot_fuller": "Reinforced rockroot fuller",
+  
+  "tetra/schema/sword/forefinger_ring.name": "Forefinger ring",
+  "tetra/schema/sword/forefinger_ring.description": "Attach a ring at the top of the hilt, greatly increasing grip. Increases the minimum damage dealt when swinging too fast.",
+  "tetra/schema/sword/forefinger_ring.slot1": "Material",
+
+  "tetra.module.sword/forefinger_ring.name": "Forefinger ring",
+  "tetra.module.sword/forefinger_ring.description": "A ring has been attached at the top of the hilt. The ring allows for a better grip, increasing the minimum damage dealt when swinging too fast.",
+
+  "tetra.variant.darkwood_forefinger_ring": "Darkwood ring",
+  "tetra.variant.elderwood_forefinger_ring": "Elderwood ring",
+  "tetra.variant.bone_forefinger_ring": "Bone ring",
+  "tetra.variant.moonstone_forefinger_ring": "Moonstone ring",
+  "tetra.variant.rockroot_forefinger_ring": "Rockroot ring",
+  
+  "tetra/schema/sword/grip_loop.name": "Grip loop",
+  "tetra/schema/sword/grip_loop.description": "Attach a loop at the end of the hilt, which increases the reach of the sword. Also increases the range of sweeping attacks by 2 blocks.",
+  "tetra/schema/sword/grip_loop.slot1": "Material",
+
+  "tetra.module.sword/grip_loop.name": "Grip loop",
+  "tetra.module.sword/grip_loop.description": "A loop attached at the end of the hilt that increases the reach of the sword. Also increases the range of sweeping attacks by 2 blocks.",
+
+  "tetra.variant.darkwood_grip_loop": "Darkwood loop",
+  "tetra.variant.elderwood_grip_loop": "Elderwood loop",
+  "tetra.variant.bone_grip_loop": "Bone loop",
+  "tetra.variant.moonstone_grip_loop": "Moonstone loop",
+  "tetra.variant.rockroot_grip_loop": "Rockroot loop",
+  
+  "tetra/schema/sword/basic_blade.name": "Simple blade",
+  "tetra/schema/sword/basic_blade.description": "Replace the current sword blade with the given blade, or reforge it using raw materials.",
+  "tetra/schema/sword/basic_blade.slot1": "Blade material",
+
+  "tetra.module.sword/basic_blade.item_name": "Sword",
+  "tetra.module.sword/basic_blade.name": "Simple blade",
+  "tetra.module.sword/basic_blade.description": "A basic blade with average damage, attack speed and integrity usage.",
+
+  "tetra.variant.basic_darkwood_blade": "Darkwood blade",
+  "tetra.variant.basic_darkwood_blade.prefix": "Darkwood",
+  "tetra.variant.basic_elderwood_blade": "Elderwood blade",
+  "tetra.variant.basic_elderwood_blade.prefix": "Elderwood",
+  "tetra.variant.basic_bone_blade": "Bone blade",
+  "tetra.variant.basic_bone_blade.prefix": "Bone",
+  "tetra.variant.basic_moonstone_blade": "Moonstone blade",
+  "tetra.variant.basic_moonstone_blade.prefix": "Moonstone",
+  
+  "tetra/schema/sword/short_blade.name": "Shortblade",
+  "tetra/schema/sword/short_blade.description": "Replace the current sword blade with a blade that's shorter and lighter than the common blade. Allows the wielder to swing at a faster rate, but deals slightly less damage per swing compared to a regular blade. The short blade is not capable of sweeping attacks.",
+  "tetra/schema/sword/short_blade.slot1": "Blade material",
+
+  "tetra.module.sword/short_blade.item_name": "Shortblade",
+  "tetra.module.sword/short_blade.name": "Shortblade",
+  "tetra.module.sword/short_blade.description": "A blade that's shorter and lighter than the common blade, allows for a faster swing rate but deals slightly less damage per swing.",
+
+  "tetra.variant.short_darkwood_blade": "Darkwood shortblade",
+  "tetra.variant.short_darkwood_blade.prefix": "Darkwood",
+  "tetra.variant.short_elderwood_blade": "Elderwood shortblade",
+  "tetra.variant.short_elderwood_blade.prefix": "Elderwood",
+  "tetra.variant.short_bone_blade": "Bone shortblade",
+  "tetra.variant.short_bone_blade.prefix": "Bone",
+  "tetra.variant.short_moonstone_blade": "Moonstone shortblade",
+  "tetra.variant.short_moonstone_blade.prefix": "Moonstone",
+  
+  "tetra/schema/sword/heavy_blade.name": "Heavy blade",
+  "tetra/schema/sword/heavy_blade.description": "Replace the current sword blade with a large and hefty blade. Sacrifices attack speed for increased damage. Has a powerful sweeping attack on fully charged attacks.",
+  "tetra/schema/sword/heavy_blade.slot1": "Blade material",
+
+  "tetra.module.sword/heavy_blade.item_name": "Greatsword",
+  "tetra.module.sword/heavy_blade.name": "Heavy blade",
+  "tetra.module.sword/heavy_blade.description": "A large and hefty blade that sacrifices attack speed for increased damage. Has a powerful sweeping attack on fully charged attacks.",
+
+  "tetra.improvement.heavy_blade/crushing.name": "Crushing",
+  "tetra.improvement.heavy_blade/crushing.description": "Attacks partially ignore armor",
+
+  "tetra.variant.heavy_darkwood_blade": "Heavy darkwood blade",
+  "tetra.variant.heavy_darkwood_blade.prefix": "darkwood",
+  "tetra.variant.heavy_elderwood_blade": "Heavy elderwood blade",
+  "tetra.variant.heavy_elderwood_blade.prefix": "elderwood",
+  "tetra.variant.heavy_bone_blade": "Heavy bone blade",
+  "tetra.variant.heavy_bone_blade.prefix": "bone",
+  "tetra.variant.heavy_moonstone_blade": "Heavy moonstone blade",
+  "tetra.variant.heavy_moonstone_blade.prefix": "moonstone",
+  
+  "tetra/schema/sword/machete.name": "Machete",
+  "tetra/schema/sword/machete.description": "Replace the current sword blade with a machete forged from the provided material, which can be used to cut down plants in an area. The machete works different from other tools as it instantly harvests blocks but only if it's not on swing cooldown.",
+  "tetra/schema/sword/machete.slot1": "Blade material",
+
+  "tetra.module.sword/machete.item_name": "Machete",
+  "tetra.module.sword/machete.name": "Machete",
+  "tetra.module.sword/machete.description": "A machete which can be used to cut down plants in an area, it deals average damage and has an average attack speed.\n\nThe machete works different from other tools as it instantly harvests blocks but only if it's not on swing cooldown.",
+
+  "tetra.variant.darkwood_machete": "Darkwood machete",
+  "tetra.variant.darkwood_machete.prefix": "Darkwood",
+  "tetra.variant.elderwood_machete": "Elderwood machete",
+  "tetra.variant.elderwood_machete.prefix": "Elderwood",
+  "tetra.variant.bone_machete": "Bone machete",
+  "tetra.variant.bone_machete.prefix": "Bone",
+  "tetra.variant.moonstone_machete": "Moonstone machete",
+  "tetra.variant.moonstone_machete.prefix": "Moonstone",
+  
+  "tetra/schema/double/basic_handle/basic_handle.name": "Basic handle",
+  "tetra/schema/double/basic_handle/basic_handle.description": "Replace the handle for the head. A sturdier handle supports heavier and more advanced tool heads.",
+  "tetra/schema/double/basic_handle/basic_handle.slot1": "Handle material",
+
+  "tetra.module.double/basic_handle.name": "Basic handle",
+  "tetra.module.double/basic_handle.description": "A basic tool handle. Handles are the primary source of integrity for tools.",
+
+  "tetra.variant.basic_darkwood_handle": "Darkwood handle",
+  "tetra.variant.basic_elderwood_handle": "Elderwood handle",
+  "tetra.variant.basic_rockroot_handle": "Rockroot handle",
+  
+  "tetra.module.double/basic_axe.item_name": "Axe",
+  "tetra.module.double/basic_axe.name": "Axe head",
+  "tetra.module.double/basic_axe.description": "A basic axe head that can primarily be used to chop things like planks and logs, but it's also useful for stripping bark from logs and crafting item modules from wood.\n\nDouble axe heads provide synergy bonuses.",
+
+  "tetra.improvement.basic_axe/severing.name": "Severing",
+  "tetra.improvement.basic_axe/severing.description": "Deals bonus damage to unarmored targets",
+
+  "tetra.variant.basic_darkwood_axe": "Darkwood axe",
+  "tetra.variant.basic_darkwood_axe.prefix": "Darkwood",
+  "tetra.variant.basic_elderwood_axe": "Elderwood axe",
+  "tetra.variant.basic_elderwood_axe.prefix": "Elderwood",
+  "tetra.variant.basic_bone_axe": "Bone axe",
+  "tetra.variant.basic_bone_axe.prefix": "Bone",
+  "tetra.variant.basic_moonstone_axe": "Moonstone axe",
+  "tetra.variant.basic_moonstone_axe.prefix": "Moonstone",
+  
+  "tetra/schema/double/basic_pickaxe/basic_pickaxe.name": "Pickaxe head",
+  "tetra/schema/double/basic_pickaxe/basic_pickaxe.description": "Forge a pickaxe head from the given material.\n\nUsing double pickaxe heads makes the pickaxe able to break tougher blocks.",
+  "tetra/schema/double/basic_pickaxe/basic_pickaxe.slot1": "Head material",
+
+  "tetra.module.double/basic_pickaxe.item_name": "Pickaxe",
+  "tetra.module.double/basic_pickaxe.name": "Pickaxe head",
+  "tetra.module.double/basic_pickaxe.description": "A basic pickaxe head that can be used for mining.\n\nUsing double pickaxe heads makes the pickaxe able to break tougher blocks.",
+
+  "tetra.improvement.basic_pickaxe/smelting.name": "Smelting",
+  "tetra.improvement.basic_pickaxe/smelting.description": "[NOT IMPLEMENTED] Automatically smelts broken blocks",
+
+  "tetra.improvement.basic_pickaxe/puncturing.name": "Puncturing",
+  "tetra.improvement.basic_pickaxe/puncturing.description": "Attacks partially ignore armor",
+
+  "tetra.variant.basic_darkwood_pickaxe": "Darkwood pick",
+  "tetra.variant.basic_darkwood_pickaxe.prefix": "Darkwood",
+  "tetra.variant.basic_elderwood_pickaxe": "Elderwood pick",
+  "tetra.variant.basic_elderwood_pickaxe.prefix": "Elderwood",
+  "tetra.variant.basic_bone_pickaxe": "Bone pick",
+  "tetra.variant.basic_bone_pickaxe.prefix": "Bone",
+  "tetra.variant.basic_moonstone_pickaxe": "Moonstone pick",
+  "tetra.variant.basic_moonstone_pickaxe.prefix": "Moonstone",
+  
+  "tetra/schema/double/butt/butt.name": "Tool butt",
+  "tetra/schema/double/butt/butt.description": "Used as the back side of a single sided tool, typically yields faster swing speed than a double sided tool. Can sometimes be used for hammering if crafted from a sturdy material.",
+  "tetra/schema/double/butt/butt.slot1": "Head material",
+
+  "tetra.module.double/butt.name": "Tool butt",
+  "tetra.module.double/butt.description": "The back side of a single sided tool, typically yields faster swing speed than a double sided head.",
+
+  "tetra.variant.darkwood_butt": "Darkwood butt",
+  "tetra.variant.elderwood_butt": "Elderwood butt",
+  "tetra.variant.bone_butt": "Bone butt",
+  "tetra.variant.moonstone_butt": "Moonstone butt",
+  
+  "tetra/schema/double/adze/adze.name": "Adze head",
+  "tetra/schema/double/adze/adze.description": "Craft an adze head from the given material. The adze can primarily be used for digging but can also be used for chopping wood.",
+  "tetra/schema/double/adze/adze.slot1": "Head material",
+
+  "tetra.module.double/adze.item_name": "Adze",
+  "tetra.module.double/adze.name": "Adze head",
+  "tetra.module.double/adze.description": "A hefty arched blade at right angles to the handle. The adze can primarily be used for digging but can also be used for chopping wood.",
+
+  "tetra.variant.darkwood_adze": "Darkwood adze",
+  "tetra.variant.darkwood_adze.prefix": "Darkwood",
+  "tetra.variant.elderwood_adze": "Elderwood adze",
+  "tetra.variant.elderwood_adze.prefix": "Elderwood",
+  "tetra.variant.bone_adze": "Bone adze",
+  "tetra.variant.bone_adze.prefix": "Bone",
+  "tetra.variant.moonstone_adze": "Moonstone adze",
+  "tetra.variant.moonstone_adze.prefix": "Moonstone",
+  
+  "tetra/schema/double/claw/claw.name": "Claw",
+  "tetra/schema/double/claw/claw.description": "Craft a claw from the given material. The claw can be used for prying things open and to quickly break most wooden blocks.",
+  "tetra/schema/double/claw/claw.slot1": "Claw material",
+
+  "tetra.module.double/claw.item_name": "Claw",
+  "tetra.module.double/claw.name": "Claw",
+  "tetra.module.double/claw.description": "A slightly curved claw that can be used for prying things open, and can quickly break most wooden blocks.",
+
+  "tetra.variant.darkwood_claw": "Darkwood claw",
+  "tetra.variant.darkwood_claw.prefix": "Darkwood",
+  "tetra.variant.elderwood_claw": "Elderwood claw",
+  "tetra.variant.elderwood_claw.prefix": "Elderwood",
+  "tetra.variant.bone_claw": "Bone claw",
+  "tetra.variant.bone_claw.prefix": "Bone",
+  "tetra.variant.moonstone_claw": "Moonstone claw",
+  "tetra.variant.moonstone_claw.prefix": "Moonstone",
+  
+  "tetra/schema/double/hoe/hoe.name": "Hoe",
+  "tetra/schema/double/hoe/hoe.description": "Craft a hoe from the given material, the hoe can be used for tilling soil.",
+  "tetra/schema/double/hoe/hoe.slot1": "Hoe material",
+
+  "tetra.module.double/hoe.item_name": "Hoe",
+  "tetra.module.double/hoe.name": "Hoe",
+  "tetra.module.double/hoe.description": "A basic hoe, useful for tilling soil.",
+
+  "tetra.variant.darkwood_hoe": "Darkwood hoe",
+  "tetra.variant.darkwood_hoe.prefix": "Darkwood",
+  "tetra.variant.elderwood_hoe": "Elderwood hoe",
+  "tetra.variant.elderwood_hoe.prefix": "Elderwood",
+  "tetra.variant.bone_hoe": "Bone hoe",
+  "tetra.variant.bone_hoe.prefix": "Bone",
+  "tetra.variant.moonstone_hoe": "Moonstone hoe",
+  "tetra.variant.moonstone_hoe.prefix": "Moonstone",
+  
+  "tetra/schema/double/sickle/sickle.name": "Sickle",
+  "tetra/schema/double/sickle/sickle.description": "Craft a sickle from the given material, which can be used to cut blocks in an area. The sickle works different from other tools as it instantly harvests blocks but only if it's not on swing cooldown.",
+  "tetra/schema/double/sickle/sickle.slot1": "Sickle material",
+
+  "tetra.module.double/sickle.item_name": "Sickle",
+  "tetra.module.double/sickle.name": "Sickle",
+  "tetra.module.double/sickle.description": "A slightly arched sickle which can be used to cut blocks in an area.\n\nWorks different from other tools as it instantly harvests blocks but only if it's not on swing cooldown.",
+
+  "tetra.variant.darkwood_sickle": "Darkwood sickle",
+  "tetra.variant.darkwood_sickle.prefix": "Darkwood",
+  "tetra.variant.elderwood_sickle": "Elderwood sickle",
+  "tetra.variant.elderwood_sickle.prefix": "Elderwood",
+  "tetra.variant.bone_sickle": "Bone sickle",
+  "tetra.variant.bone_sickle.prefix": "Bone",
+  "tetra.variant.moonstone_sickle": "Moonstone sickle",
+  "tetra.variant.moonstone_sickle.prefix": "Moonstone",
+  
+  "tetra/schema/single/handle/basic_handle.name": "Basic handle",
+  "tetra/schema/single/handle/basic_handle.description": "Replace the handle a basic handle crafted from the given materials. A sturdier handle supports heavier and more advanced tool heads.",
+  "tetra/schema/single/handle/basic_handle.slot1": "Handle material",
+
+  "tetra.module.single/basic_handle.name": "Basic handle",
+  "tetra.module.single/basic_handle.description": "A basic handle. Handles are the primary source of integrity.",
+  
+  "tetra/schema/single/handle/light_handle.name": "Light handle",
+  "tetra/schema/single/handle/light_handle.description": "Replace the handle with a lighter handle that allows the item to be thrown, but it provides less durability than other handles.",
+  "tetra/schema/single/handle/light_handle.slot1": "Handle material",
+
+  "tetra.module.single/light_handle.name": "Light handle",
+  "tetra.module.single/light_handle.description": "A lighter handle that provides less durability but allows the item to be thrown. Handles are the primary source of integrity.",
+
+  "tetra.variant.light_darkwood_handle": "Light darkwood handle",
+  "tetra.variant.light_elderwood_handle": "Light elderwood handle",
+  "tetra.variant.light_rockroot_handle": "Light rockroot handle",
+  
+  "tetra/schema/single/handle/long_handle.name": "Long handle",
+  "tetra/schema/single/handle/long_handle.description": "Replace the handle with a longer handle that yields longer reach.",
+  "tetra/schema/single/handle/long_handle.slot1": "Handle material",
+
+  "tetra.module.single/long_handle.name": "Long handle",
+  "tetra.module.single/long_handle.description": "A longer handle that yields longer reach. Handles are the primary source of integrity.",
+
+  "tetra.variant.long_darkwood_handle/stick": "Long darkwood handle",
+  "tetra.variant.long_elderwood_handle/stick": "Long elderwood handle",
+  "tetra.variant.long_rockroot_handle/stick": "Long rockroot handle",
+  
+  "tetra/schema/single/basic_shovel/basic_shovel.name": "Shovel head",
+  "tetra/schema/single/basic_shovel/basic_shovel.description": "Forge an axe head from the given material. The shovel can primarily be used to dig into the earth, but it's also useful for make dirt paths.",
+  "tetra/schema/single/basic_shovel/basic_shovel.slot1": "Head material",
+
+  "tetra.module.single/basic_shovel.item_name": "Shovel",
+  "tetra.module.single/basic_shovel.name": "Shovel head",
+  "tetra.module.single/basic_shovel.description": "A basic shovel head that can primarily be used to dig into the earth, but it's also useful for make dirt paths.",
+
+  "tetra.variant.basic_darkwood_shovel": "Darkwood shovel",
+  "tetra.variant.basic_darkwood_shovel.prefix": "Darkwood",
+  "tetra.variant.basic_elderwood_shovel": "Elderwood shovel",
+  "tetra.variant.basic_elderwood_shovel.prefix": "Elderwood",
+  "tetra.variant.basic_bone_shovel": "Bone shovel",
+  "tetra.variant.basic_bone_shovel.prefix": "Bone",
+  "tetra.variant.basic_moonstone_shovel": "Moonstone shovel",
+  "tetra.variant.basic_moonstone_shovel.prefix": "Moonstone",
+ 
+  "tetra/schema/shield/plate/tower.name": "Tower plate",
+  "tetra/schema/shield/plate/tower.description": "Craft a tower shield plate from the given materials. Tower shields can block indefinitely and has no cooldown, but it uses more integrity than other types of shields.",
+  "tetra/schema/shield/plate/tower.slot1": "Material",
+
+  "tetra.module.shield/tower.item_name": "Tower shield",
+  "tetra.module.shield/tower.name": "Tower shield",
+  "tetra.module.shield/tower.description": "A large tower shield that can block indefinitely and has no cooldown.",
+
+  "tetra.variant.chitin_tower": "Chitin tower plate",
+  "tetra.variant.chitin_tower.prefix": "Chitin",
+  "tetra.variant.moonstone_tower": "Moonstone tower plate",
+  "tetra.variant.moonstone_tower.prefix": "Moonstone",
+  "tetra.variant.darkwood_tower": "Darkwood tower plate",
+  "tetra.variant.darkwood_tower.prefix": "Darkwood",
+  "tetra.variant.elderwood_tower": "Elderwood tower plate",
+  "tetra.variant.elderwood_tower.prefix": "Elderwood",  
+
+  "tetra/schema/shield/plate/heater.name": "Heater plate",
+  "tetra/schema/shield/plate/heater.description": "Craft a heater shield plate from the given materials. Heaters are medium size shields that uses less integrity than a tower shield, but can only block for a limited amount of time before going on cooldown.",
+  "tetra/schema/shield/plate/heater.slot1": "Material",
+
+  "tetra.module.shield/heater.item_name": "Heater shield",
+  "tetra.module.shield/heater.name": "Heater plate",
+  "tetra.module.shield/heater.description": "The heater shield is a medium size shield that can only block for a limited amount of time before going on cooldown.",
+
+  "tetra.variant.chitin_heater": "Chitin heater plate",
+  "tetra.variant.chitin_heater.prefix": "Chitin",
+  "tetra.variant.moonstone_heater": "Moonstone heater plate",
+  "tetra.variant.moonstone_heater.prefix": "Moonstone",
+  "tetra.variant.darkwood_heater": "Darkwood heater plate",
+  "tetra.variant.darkwood_heater.prefix": "Darkwood",
+  "tetra.variant.elderwood_heater": "Elderwood heater plate",
+  "tetra.variant.elderwood_heater.prefix": "Elderwood",  
+  
+  "tetra/schema/shield/plate/buckler.name": "Buckler plate",
+  "tetra/schema/shield/plate/buckler.description": "Craft a buckler from the given materials. Bucklers cannot be used to block but they provide a passive toughness bonus.",
+  "tetra/schema/shield/plate/buckler.slot1": "Material",
+
+  "tetra.module.shield/buckler.item_name": "Buckler",
+  "tetra.module.shield/buckler.name": "Buckler plate",
+  "tetra.module.shield/buckler.description": "Bucklers are small shields that provide a passive toughness bonus.",
+
+  "tetra.variant.chitin_buckler": "Chitin buckler plate",
+  "tetra.variant.chitin_buckler.prefix": "Chitin",
+  "tetra.variant.moonstone_buckler": "Moonstone buckler plate",
+  "tetra.variant.moonstone_buckler.prefix": "Moonstone",
+  "tetra.variant.darkwood_buckler": "Darkwood buckler plate",
+  "tetra.variant.darkwood_buckler.prefix": "Darkwood",
+  "tetra.variant.elderwood_buckler": "Elderwood buckler plate",
+  "tetra.variant.elderwood_buckler.prefix": "Elderwood",
+    
+  "tetra/schema/shield/grip/basic_grip.name": "Basic grip",
+  "tetra/schema/shield/grip/basic_grip.description": "Craft a basic grip from the given materials. Grips are the primary source of integrity for shields.",
+  "tetra/schema/shield/grip/basic_grip.slot1": "Material",
+
+  "tetra.module.shield/basic_grip.item_name": "Basic grip",
+  "tetra.module.shield/basic_grip.name": "Basic grip",
+  "tetra.module.shield/basic_grip.description": "A basic grip. Grips are the primary source of integrity for shields.",
+
+  "tetra.variant.basic_darkwood_grip": "Basic darkwood grip",
+  "tetra.variant.basic_elderwood_grip": "Basic elderwood grip",
+  "tetra.variant.basic_bone_grip": "Basic bone grip",
+  "tetra.variant.basic_rockroot_grip": "Basic rockroot grip",
+  
+  "tetra/schema/shield/grip/straps.name": "Straps",
+  "tetra/schema/shield/grip/straps.description": "Replace the grip with straps crafted from the given materials. A shield held with straps is typically less taxing to use. Grips are the primary source of integrity for shields.",
+  "tetra/schema/shield/grip/straps.slot1": "Material",
+
+  "tetra.module.shield/straps.name": "Straps",
+  "tetra.module.shield/straps.description": "Straps used holding the shield. A shield held with straps is typically less taxing to use. Grips are the primary source of integrity for shields.",
+
+  "tetra.variant.rope_straps": "Rope straps",
+  
+  "tetra/schema/shield/plate/trim.name": "Trim edge",
+  "tetra/schema/shield/plate/trim.description": "Frame the shield with a trim to increase it's durability, the durability bonus is multiplicative.",
+  "tetra/schema/shield/plate/trim.slot1": "Material",
+
+  "tetra.improvement.shield/trim_rockroot.name": "Rockroot trim",
+  "tetra.improvement.shield/trim_rockroot.description": "Increases durability",
+  "tetra.improvement.shield/trim_darkwood.name": "Darkwood trim",
+  "tetra.improvement.shield/trim_darkwood.description": "Increases durability",
+  "tetra.improvement.shield/trim_elderwood.name": "Elderwood trim",
+  "tetra.improvement.shield/trim_elderwood.description": "Increases durability",  
+  
+  "tetra/schema/double/binding.name": "Binding",
+  "tetra/schema/double/binding.description": "Bind the tool head to the handle by binding it with rope or straps, or by using completely different materials and methods.",
+  "tetra/schema/double/binding.slot1": "Material",
+
+  "tetra.module.double/binding.name": "Binding",
+
+  "tetra.variant.double_rope_binding": "Rope binding",
+  "tetra.variant.double_rope_binding.description": "Tightly bound ropes strengthen the tool head's attachment to the handle.",
+  
+  "tetra/schema/single/binding.name": "Binding",
+  "tetra/schema/single/binding.description": "Bind the tool head to the handle by binding it with rope or straps, or by using completely different materials and methods.",
+  "tetra/schema/single/binding.slot1": "Material",
+
+  "tetra.module.single/binding.name": "Binding",
+  
+  "tetra.variant.single_rope_binding": "Rope binding",
+  "tetra.variant.single_rope_binding.description": "Tightly bound ropes strengthen the tool head's attachment to the handle."
+  
+}
