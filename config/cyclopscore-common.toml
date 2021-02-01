@@ -5,7 +5,7 @@
 		#If an anonymous mod startup analytics request may be sent to our analytics service.
 		analytics = true
 		#The anonymous id used by the analytics service.
-		anonymousAnalyticsID = "84a94f6f-88b3-4669-9e30-55e63698c962"
+		anonymousAnalyticsID = "c8a8661b-e44c-41c8-8930-c222f9fc7b7c"
 		#Set 'true' to enable development debug mode. This will result in a lower performance!
 		debug = false
 		#If the version checker should be enabled.

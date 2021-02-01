@@ -235,7 +235,7 @@ mobDropsEnabled = true
 		#Range: 1 ~ 30
 		maxRange = 30
 		#List of torches that are supported by the staff in addition to the default minecraft torch
-		torches = ["minecraft:torch", "druidcraft:fiery_torch"]
+		torches = ["minecraft:torch"]
 		#Number of items the staff can store per item type
 		#Range: 1 ~ 9999
 		maxCapacityPerItemType = 1500

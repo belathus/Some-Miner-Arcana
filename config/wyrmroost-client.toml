@@ -1,6 +1,0 @@
-
-#Wyrmroost Client Options
-[General]
-	#Disables Frustum check when rendering (Dragons parts dont go poof when looking too far) - Only applies to bigger bois
-	disableFrustumCheck = true
-

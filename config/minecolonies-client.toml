@@ -1,1 +1,11 @@
 
+#All configuration items related to the core gameplay
+[gameplay]
+	#minecolonies.config.citizenvoices.comment [Default: true]
+	citizenvoices = true
+
+#All configurations related to pathfinding
+[pathfinding]
+	#Show pathfinding paths (might be laggy). [Default: false]
+	pathfindingdebugdraw = false
+

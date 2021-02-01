@@ -1,0 +1,22 @@
+
+[machines]
+
+	#Config options for External Heaters heating any furnace.
+	[machines.furnace_heater]
+		#How much FE is consumed per heat unit added to the furnace.
+		#Range: > 0
+		cost = 8
+		#Whether this feature should be enabled.
+		enable = true
+		#How much burn time the heater will heat the furnace up to.
+		#Range: > 0
+		max_heat = 200
+		#How many heat units are added every tick.
+		#Range: > 0
+		speed = 4
+
+	#Config options for Arc Furnaces accepting electrodes piped in.
+	[machines.arc_furnace]
+		#Whether this feature should be enabled.
+		enable = true
+

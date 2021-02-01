@@ -1,11 +1,11 @@
+#Makes iron bars climbable if a rope is below them.
+climbableBars = true
+#Replace the cauldron block to allow it to hold other liquids and perform extended recipes.
+cauldron = true
 #Replace carpet blocks, allowing them to fit to stairs below them.
 fittedCarpets = true
 #Replace hopper blocks, allowing them to be waterlogged.
-hopper = true
-
-[rope]
-	#Makes iron bars climbable if a rope is below them.
-	climbableBars = true
+waterlogHoppers = true
 
 [enchantments]
 	#If true, axes can receive available weapon enchantments at the enchantment table

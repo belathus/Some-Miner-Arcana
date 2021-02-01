@@ -1,0 +1,125 @@
+#Disable/Enable Silver Ore
+genOreSilver = true
+#Disable/Enable Ice as a material.
+ice = true
+#Disable/Enable Garnet as a material.
+garnet = true
+#Disable/Enable Nihilite as a material.
+nihilite = true
+#Disable/Enable Star Sapphire as a material.
+starsapphire = true
+#Disable/Enable Tanzinite as a material.
+tanzinite = true
+#Disable/Enable Platinum as a material.
+platinum = true
+#Disable/Enable Sapphire Ore
+genOreSapphire = true
+#Disable/Enable Valyrian Steel as a material.
+valyriansteel = true
+#Disable/Enable Depth Silver as a material.
+depthsilver = true
+#Disable/Enable Amber Ore
+genOreAmber = true
+#Disable/Enable Lapis as a material.
+lapis = true
+#Disable/Enable Platinum Ore
+genOrePlatinum = true
+#Disable/Enable Sapphire as a material.
+sapphire = true
+#Disable/Enable Dogbearium as a material.
+dogbearium = true
+#Disable/Enable Citrine as a material.
+citrine = true
+#Disable/Enable Solarium as a material.
+solarium = true
+#Disable/Enable Energetic Electrum as a material.
+energeticElectrum = true
+#Disable/Enable Amethyst Ore
+genOreAmethyst = true
+#Disable/Enable Rosegold as a material.
+rosegold = true
+#Disable/Enable Citrine Ore
+genOreCitrine = true
+#Disable/Enable Silver as a material.
+silver = true
+#Disable/Enable Dragon Steel as a material.
+dragonsteel = true
+#Disable/Enable Tanzinite Ore
+genOreTanzinite = true
+#Disable/Enable Emerald as a material.
+emerald = true
+#Disable/Enable Mithril Ore
+genOreMithril = true
+#Disable/Enable Sinisterium as a material.
+sinisterium = true
+#Disable/Enable Mithril as a material.
+mithril = true
+#Disable/Enable Opal Ore
+genOreOpal = true
+#Disable/Enable Radiant Gold as a material.
+radiantGold = true
+#Disable/Enable Amethyst as a material.
+amethyst = true
+#Disable/Enable Gallite as a material.
+gallite = true
+#Disable/Enable Frost Steel as a material.
+froststeel = true
+#Disable/Enable Gold as a material.
+gold = true
+#Disable/Enable Star Ruby as a material.
+starruby = true
+#Disable/Enable Pandorium as a material.
+pandorium = true
+#Disable/Enable Black Steel as a material.
+blacksteel = true
+#Disable/Enable Star Sapphire Ore
+genOreStarsapphire = true
+#Disable/Enable Topaz as a material.
+topaz = true
+#Disable/Enable Hallowed Silver as a material.
+hallowedSilver = true
+#The name used by ore generation to determine if a chunk has been populated. Changing this will mark all chunks for retrogen if enabled.
+retroGenName = "Generated"
+#Disable/Enable Star Ruby Ore
+genOreStarruby = true
+#Disable/Enable Developer Debugging.
+debug = false
+#Disable/Enable Garnet Ore
+genOreGarnet = true
+#Disable/Enable All Ores
+genOreGeneral = true
+#Disable/Enable Quartz as a material.
+quartz = true
+#Disable/Enable Topaz Ore
+genOreTopaz = true
+#Disable/Enable Amber as a material.
+amber = true
+#Disable/Enable Sundrop as a material.
+sundrop = true
+#Disable/Enable Ruby as a material.
+ruby = true
+#Disable/Enable Aeonsteel as a material.
+aeonsteel = true
+#Disable/Enable Orichalcum as a material.
+orichalcum = true
+#Disable/Enable Diamond as a material.
+diamond = true
+#Enable RetroGen of ores
+enableRetroGen = false
+#Disable/Enable Nova Gold as a material.
+novagold = true
+#Disable/Enable Ruby Ore
+genOreRuby = true
+#Disable/Enable Abyssalium as a material.
+abyssalium = true
+#Disable/Enable Moon Silver as a material.
+moonsilver = true
+#Disable/Enable Opal as a material.
+opal = true
+#Disable/Enable Voidite as a material.
+voidite = true
+#Disable/Enable Iron as a material.
+iron = true
+#Disable/Enable Queen's Gold as a material.
+queensgold = true
+

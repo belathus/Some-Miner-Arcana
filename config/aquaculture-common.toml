@@ -32,7 +32,7 @@
 		#Range: 0 ~ 64
 		max = 2
 		#Range: 0 ~ 100
-		weight = 4
+		weight = 6
 		exclude = [""]
 
 	["spawn options".box_turtle]
@@ -42,6 +42,6 @@
 		#Range: 0 ~ 64
 		max = 2
 		#Range: 0 ~ 100
-		weight = 7
+		weight = 9
 		exclude = [""]
 

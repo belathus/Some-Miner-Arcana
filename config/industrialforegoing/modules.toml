@@ -8,6 +8,9 @@
 		[modules.agriculture.animal_rancher]
 			enabled = true
 
+		[modules.agriculture.hydroponic_bed]
+			enabled = true
+
 		[modules.agriculture.crop_farming]
 			enabled = true
 
@@ -15,6 +18,9 @@
 			enabled = true
 
 		[modules.agriculture.animal_feeder]
+			enabled = true
+
+		[modules.agriculture.mob_crusher]
 			enabled = true
 
 		[modules.agriculture.mob_slaughter_factory]
@@ -36,6 +42,9 @@
 		[modules.core.sludge]
 			enabled = true
 
+		[modules.core.ether]
+			enabled = true
+
 		[modules.core.biofuel]
 			enabled = true
 
@@ -45,10 +54,10 @@
 		[modules.core.milk]
 			enabled = true
 
-		[modules.core.straw]
+		[modules.core.dark_glass]
 			enabled = true
 
-		[modules.core.manual]
+		[modules.core.straw]
 			enabled = true
 
 		[modules.core.pink_slime]
@@ -64,6 +73,9 @@
 			enabled = true
 
 		[modules.core.fertilizer]
+			enabled = true
+
+		[modules.core.laser_lens]
 			enabled = true
 
 		[modules.core.plastic]
@@ -92,7 +104,13 @@
 		[modules.generator.pitiful_generator]
 			enabled = true
 
+		[modules.generator.mycelial_reactor]
+			enabled = true
+
 		[modules.generator.biofuel_generator]
+			enabled = true
+
+		[modules.generator.mycelial_generators]
 			enabled = true
 
 		[modules.generator.bioreactor]
@@ -105,12 +123,48 @@
 		[modules.transport.conveyor]
 			enabled = true
 
+		[modules.transport.advanced_black_hole_unit]
+			enabled = true
+
+		[modules.transport.supreme_black_hole_unit]
+			enabled = true
+
+		[modules.transport.common_black_hole_tank]
+			enabled = true
+
+		[modules.transport.black_hole_controller]
+			enabled = true
+
+		[modules.transport.advanced_black_hole_tank]
+			enabled = true
+
 		[modules.transport.conveyor_upgrades]
+			enabled = true
+
+		[modules.transport.simple_black_hole_tank]
+			enabled = true
+
+		[modules.transport.pity_black_hole_unit]
+			enabled = true
+
+		[modules.transport.common_black_hole_unit]
+			enabled = true
+
+		[modules.transport.pity_black_hole_tank]
+			enabled = true
+
+		[modules.transport.simple_black_hole_unit]
+			enabled = true
+
+		[modules.transport.supreme_black_hole_tank]
 			enabled = true
 
 	#A collection of Industrial Foregoing tools
 	[modules.tools]
 		enabled = true
+
+		[modules.tools.infinity_trident]
+			enabled = true
 
 		[modules.tools.meat_feeder]
 			enabled = true
@@ -125,6 +179,12 @@
 			enabled = true
 
 		[modules.tools.infinity_saw]
+			enabled = true
+
+		[modules.tools.infinity_backpack]
+			enabled = true
+
+		[modules.tools.infinity_hammer]
 			enabled = true
 
 	[modules.resource_production]
@@ -151,10 +211,16 @@
 		[modules.resource_production.resourceful_furnace]
 			enabled = true
 
+		[modules.resource_production.ore_laser_base]
+			enabled = true
+
 		[modules.resource_production.fluid_collector]
 			enabled = true
 
 		[modules.resource_production.spores_recreator]
+			enabled = true
+
+		[modules.resource_production.potion_brewer]
 			enabled = true
 
 		[modules.resource_production.sludge_refiner]
@@ -166,11 +232,32 @@
 		[modules.resource_production.dye_mixer]
 			enabled = true
 
+		[modules.resource_production.laser_drill]
+			enabled = true
+
+		[modules.resource_production.fluid_laser_base]
+			enabled = true
+
 	#Random things that don't fit
 	[modules.misc]
 		enabled = true
 
+		[modules.misc.enchantment_factory]
+			enabled = true
+
+		[modules.misc.infinity_charger]
+			enabled = true
+
+		[modules.misc.enchantment_sorter]
+			enabled = true
+
+		[modules.misc.enchantment_applicator]
+			enabled = true
+
 		[modules.misc.stasis_chamber]
+			enabled = true
+
+		[modules.misc.enchantment_extractor]
 			enabled = true
 
 		[modules.misc.mob_detector]

@@ -22,6 +22,8 @@
 			#Range: 0.0 ~ 10.0
 			sturdy = 0.4000000059604645
 			#Range: 0.0 ~ 10.0
+			very_crude = 0.30000001192092896
+			#Range: 0.0 ~ 10.0
 			crude = 0.3499999940395355
 			#Range: 0.0 ~ 10.0
 			azure = 0.5
@@ -34,9 +36,16 @@
 			#Range: > 0
 			sturdy = 32
 			#Range: > 0
+			very_crude = 8
+			#Range: > 0
 			crude = 16
 			#Range: > 0
 			azure = 64
+
+	[item.netherwood_charcoal]
+		#Burn time of netherwood charcoal, in ticks. Vanilla charcoal is 1600.
+		#Range: > 0
+		burn_time = 2400
 
 #Settings for nerfed items.
 #You can give items reduced durability to encourage use of Silent Gear tools.
@@ -65,9 +74,18 @@
 [gear]
 	#If true, gear breaks permanently, like vanilla tools and armor
 	breaksPermanently = false
+	#Displays a message in chat, notifying the player that an item broke and hinting that it can be repaired
+	sendBrokenMessage = true
+	#How frequently gear will recalcute stats as damaged
+	#Higher numbers will cause more recalculations, allowing traits to update stat values more often
+	#Range: > 1
+	damageFactorLevels = 10
+	#Allow parts to be crafted with mixed materials in a crafting grid, just like all recent versions.
+	#In 1.17, mixing will only be allowed in compound-crafting blocks.
+	allowClassicMaterialMixing = true
 
 	[gear.repairs]
-		#DEPRECATED! Effectiveness of quick gear repairs (crafting grid). Set to 0 to disable quick repairs.
+		#DEPRECATED! Use repair kit configs instead.
 		#Range: 0.0 ~ 1.0
 		quickEffectiveness = 0.35
 		#Effectiveness of gear repairs done in an anvil. Set to 0 to disable anvil repairs.
@@ -88,6 +106,11 @@
 			#Match mode for ore blocks (anything in the forge:ores block tag)
 			#Allowed Values: LOOSE, MODERATE, STRICT
 			ores = "STRICT"
+
+	[gear.prospector_hammer]
+		#The range in blocks the prospector hammer will search for blocks of interest
+		#Range: 0 ~ 64
+		range = 16
 
 	[gear.upgrades]
 		#If true, upgrade parts may only be applied in an anvil.
@@ -115,7 +138,38 @@
 [debug]
 
 	[debug.logging]
+		#Log stat calculations in the debug.log every time gear stats are recalculated
+		stats = true
 		#Log additional information related to loading and synchronizing gear parts and traits.
 		#This might help track down more obscure issues.
 		extraPartAndTraitInfo = false
+		#Log information on construction of gear and part models, as well as textures they attempt to load.
+		#This is intended to help find and fix rare issues that some users are experiencing.
+		modelAndTexture = true
+
+#World generation options (REQUIRES GAME RESTART)
+[world]
+
+	[world.bort]
+		#Attempts to place individual bort ore blocks per chunk.
+		#Range: 0 ~ 1000
+		count = 4
+
+	[world.crimsonIron]
+		#Veins of crimson iron ore per chunk
+		#Range: 0 ~ 1000
+		count = 14
+
+	[world.azureSilver]
+		#Veins of azure silver ore per chunk
+		#Range: 0 ~ 1000
+		count = 8
+
+	[world.wildFlax]
+		#Block place attempts per wild flax cluster
+		#Range: 0 ~ 1000
+		tryCount = 16
+		#Number of patches of wild flax to attempt to place per chunk (some biomes only)
+		#Range: 0 ~ 100
+		patchCount = 1
 

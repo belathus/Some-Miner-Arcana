@@ -1,5 +1,0 @@
-
-[client]
-	#If set to false this will disable The Undergarden's ambiance sounds, in case it bothers you or causes problems
-	toggleAmbiance = true
-

@@ -1,9 +1,0 @@
-#Set to true to disable The Otherside's void teleportation when entities are below y 0
-disableOthersideTeleportation = false
-
-[mod_compatibility]
-	#Determines if The Undergarden's roof will generate with obsidian instead of bedrock, for compatibility with Immersive Portals dimension stacking
-	genObsidianRoof = false
-	#Determines if The Undergarden's floor will generate with obsidian instead of bedrock, for compatibility with Immersive Portals dimension stacking
-	genObsidianFloor = false
-
