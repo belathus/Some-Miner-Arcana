@@ -1,0 +1,19 @@
+
+#Toggles to allow/disable going prone in various circumstances
+[allowProne]
+	#Allow while flying
+	flying = true
+
+	#Allow while riding another entity
+	[allowProne.riding]
+		allowed = false
+		#A list of exceptions to the rule.
+		#If allowed is true, this works as a blacklist
+		#If allowed is false, this works as a whitelist
+		exceptions = []
+
+#Other options not related to when you can go prone
+[other]
+	#Can players jump while prone
+	isJumpingAllowed = true
+
