@@ -111,5 +111,55 @@
 	# Note that tags are NOT currently supported.
 	#
 	#
-	complexityUnparsed = [ "minecraft:golden_apple,2", "minecraft:golden_carrot,2", "minecraft:enchanted_golden_apple,5", "minecraft:honey_bottle,2", "buzzier_bees:honey_bread,2", "buzzier_bees:glazed_porkchop,2", "buzzier_bees:sticky_honey_wand,2", "buzzier_bees:honey_apple,2", "farmersdelight:honey_cookie,2", "farmersdelight:honey_glazed_ham,2", "quark:golden_frog_leg,2", "silentgear:golden_nether_banana,2" ]
+	complexityUnparsed = [ 
+		"minecraft:beef,0.8",
+		"minecraft:beetroot_soup,1.1",
+		"minecraft:beetroot,0.5",
+		"minecraft:carrot,0.8",
+		"minecraft:chicken,0.5",
+		"minecraft:chorus_fruit,0.8",
+		"minecraft:cod,0.8",
+		"minecraft:golden_apple,2",
+		"minecraft:golden_carrot,2", 
+		"minecraft:enchanted_golden_apple,5", 
+		"minecraft:honey_bottle,2", 
+		"minecraft:melon_slice,0.8",
+		"minecraft:mushroom_stew,1.2",
+		"minecraft:mutton,0.8",
+		"minecraft:poisonous_potato,0.3",
+		"minecraft:porkchop,0.8",
+		"minecraft:potato,0.5",
+		"minecraft:pufferfish,0.3",
+		"minecraft:pumpkin_pie,1.2",
+		"minecraft:rabbit,0.8",
+		"minecraft:rabbit_stew,1.6",
+		"minecraft:rotten_flesh,0.3",
+		"minecraft:salmon,0.8",
+		"minecraft:spider_eye,0.3",
+		"minecraft:suspicious_stew,1.3",
+		"minecraft:tropical_fish,0.8",
+		
+		"buzzier_bees:honey_bread,2", 
+		"buzzier_bees:glazed_porkchop,2", 
+		"buzzier_bees:sticky_honey_wand,2", 
+		"buzzier_bees:honey_apple,2",
+		
+		"farmersdelight:apple_pie,1.5", 
+		"farmersdelight:bacon_sandwich,1.5", 
+		"farmersdelight:barbecue_stick,1.6", 
+		"farmersdelight:chicken_sandwich,1.5", 
+		"farmersdelight:chocolate_pie,1.5", 
+		"farmersdelight:egg_sandwich,1.3", 
+		"farmersdelight:fruit_salad,1.4", 
+		"farmersdelight:grilled_salmon,1.5", 
+		"farmersdelight:hamburger,1.7", 
+		"farmersdelight:honey_cookie,2", 
+		"farmersdelight:honey_glazed_ham,2.6", 
+		"farmersdelight:melon_popsicle,1.2", 
+		"farmersdelight:mixed_salad,1.4", 
+		"farmersdelight:nether_salad,1.2", 
+		
+		"quark:golden_frog_leg,2", 
+		"silentgear:golden_nether_banana,2"
+	]
 
